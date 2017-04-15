@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="journal" type="Journal"/>
+	<xs:complexType name="Journal">
+		<xs:sequence>
+			<xs:element name="id" type="xs:integer"/>
+			<xs:element name="lesson_id" type="xs:integer"/>
+			<xs:element name="student_id" type="xs:integer"/>
+			<xs:element name="time_check" type="xs:dateTime"/>
+			<xs:element name="is_deleted" type="xs:boolean"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

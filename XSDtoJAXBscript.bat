@@ -1,0 +1,1 @@
+xjc -d src -p com.company.model.xjc ./xsd/journal.xsd
