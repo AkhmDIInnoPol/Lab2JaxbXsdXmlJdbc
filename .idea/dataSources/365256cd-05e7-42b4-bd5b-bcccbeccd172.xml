@@ -9,8 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>17246</ObjectId>
-      <IntrospectionTimestamp>2017-04-14.15:10:06.626</IntrospectionTimestamp>
-      <IntrospectionStateNumber>573</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-04-15.20:30:43.114</IntrospectionTimestamp>
+      <IntrospectionStateNumber>606</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -29,33 +29,34 @@
     <schema id="8" parent="2" name="information_schema">
       <ObjectId>12113</ObjectId>
     </schema>
-    <sequence id="9" parent="3" name="criterion_id_seq">
+    <sequence id="9" parent="3" name="journal_id_seq">
+      <ObjectId>17663</ObjectId>
+      <StateNumber>606</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="10" parent="3" name="criterion_id_seq">
       <ObjectId>17300</ObjectId>
       <StateNumber>573</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
-    <sequence id="10" parent="3" name="criterion_to_task_id_seq">
+    <sequence id="11" parent="3" name="criterion_to_task_id_seq">
       <ObjectId>17609</ObjectId>
       <StateNumber>573</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
-    <sequence id="11" parent="3" name="criterion_type_id_seq">
+    <sequence id="12" parent="3" name="criterion_type_id_seq">
       <ObjectId>17309</ObjectId>
       <StateNumber>573</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
-    <sequence id="12" parent="3" name="crm_user_id_seq">
+    <sequence id="13" parent="3" name="crm_user_id_seq">
       <ObjectId>17247</ObjectId>
       <StateNumber>573</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
-    <sequence id="13" parent="3" name="download_id_seq">
+    <sequence id="14" parent="3" name="download_id_seq">
       <ObjectId>17640</ObjectId>
-      <StateNumber>573</StateNumber>
-      <BelongsToColumn>1</BelongsToColumn>
-    </sequence>
-    <sequence id="14" parent="3" name="journal_id_seq">
-      <ObjectId>17572</ObjectId>
       <StateNumber>573</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
@@ -185,12 +186,12 @@
       <StateNumber>573</StateNumber>
     </table>
     <table id="41" parent="3" name="journal">
-      <ObjectId>17574</ObjectId>
-      <StateNumber>573</StateNumber>
+      <ObjectId>17665</ObjectId>
+      <StateNumber>606</StateNumber>
     </table>
     <table id="42" parent="3" name="lesson">
       <ObjectId>17542</ObjectId>
-      <StateNumber>573</StateNumber>
+      <StateNumber>606</StateNumber>
     </table>
     <table id="43" parent="3" name="mark">
       <ObjectId>17519</ObjectId>
@@ -242,7 +243,7 @@
     </table>
     <table id="55" parent="3" name="student">
       <ObjectId>17289</ObjectId>
-      <StateNumber>573</StateNumber>
+      <StateNumber>606</StateNumber>
     </table>
     <table id="56" parent="3" name="student_activity">
       <ObjectId>17558</ObjectId>
@@ -528,7 +529,7 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>573</StateNumber>
+      <StateNumber>606</StateNumber>
       <SequenceName>journal_id_seq</SequenceName>
       <DefaultExpression>nextval(&apos;journal_id_seq&apos;::regclass)</DefaultExpression>
     </column>
@@ -536,46 +537,46 @@
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>573</StateNumber>
+      <StateNumber>606</StateNumber>
     </column>
     <column id="106" parent="41" name="student_id">
       <Position>3</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>573</StateNumber>
+      <StateNumber>606</StateNumber>
     </column>
     <column id="107" parent="41" name="time_check">
       <Position>4</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>573</StateNumber>
+      <StateNumber>606</StateNumber>
     </column>
     <column id="108" parent="41" name="is_deleted">
       <Position>5</Position>
       <DataType>boolean|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>573</StateNumber>
+      <StateNumber>606</StateNumber>
     </column>
     <index id="109" parent="41" name="pk_journal">
-      <ObjectId>17578</ObjectId>
+      <ObjectId>17669</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="110" parent="41" name="pk_journal">
-      <ObjectId>17579</ObjectId>
+      <ObjectId>17670</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>pk_journal</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="111" parent="41" name="fk_journal_lesson">
-      <ObjectId>17585</ObjectId>
+      <ObjectId>17676</ObjectId>
       <ColNames>lesson_id</ColNames>
       <RefTableName>lesson</RefTableName>
       <RefKeyName>fk_lesson</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="112" parent="41" name="fk_journal_student">
-      <ObjectId>17580</ObjectId>
+      <ObjectId>17671</ObjectId>
       <ColNames>student_id</ColNames>
       <RefTableName>student</RefTableName>
       <RefKeyName>pk_student</RefKeyName>

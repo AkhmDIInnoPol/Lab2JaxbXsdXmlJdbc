@@ -174,4 +174,15 @@ public class TaskToGroup {
         this.endDate = value;
     }
 
+
+    @Override
+    public String toString() {
+        return "TaskToGroup{" +
+                "id=" + id +
+                ", taskId=" + taskId +
+                ", studyGroupId=" + studyGroupId +
+                ", isActive=" + isActive +
+                ", endDate=" + endDate +
+                '}';
+    }
 }

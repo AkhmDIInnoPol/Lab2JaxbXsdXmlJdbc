@@ -63,9 +63,9 @@ public class JournalConnector
 
     /**
      * Function insert new tuple of {@link Journal} object in table.
-     * @param journal - object of {@link Journal} type.
+     * @param journals - list of objects of type {@link Journal}.
      */
-    public static void insert(Journal journal)
+    public static void insert(Journals journals)
     {
         Connection connection = ConnectionDB.getConnection();
 
@@ -75,14 +75,19 @@ public class JournalConnector
                     + "VALUES (?,?,?,?,?)"
             );
 
-            preparedStatement.setInt(1, journal.getId().intValue());
-            preparedStatement.setInt(2, journal.getLessonId().intValue());
-            preparedStatement.setInt(3, journal.getStudentId().intValue());
-            preparedStatement.setDate(4, GregXMLAndDateSQLConverter
-                                                        .convGregXmlToDateSql(journal.getTimeCheck()));
-            preparedStatement.setBoolean(5, journal.isIsDeleted());
+            List<Journal> journalList = journals.getJournals();
 
-            preparedStatement.executeUpdate();
+            for (Journal journal:journalList
+                 ) {
+                preparedStatement.setInt(1, journal.getId().intValue());
+                preparedStatement.setInt(2, journal.getLessonId().intValue());
+                preparedStatement.setInt(3, journal.getStudentId().intValue());
+                preparedStatement.setDate(4, GregXMLAndDateSQLConverter
+                        .convGregXmlToDateSql(journal.getTimeCheck()));
+                preparedStatement.setBoolean(5, journal.isIsDeleted());
+
+                preparedStatement.executeUpdate();
+            }
         }
         catch (SQLException ex)
         {
@@ -94,13 +99,13 @@ public class JournalConnector
     /**
      * Delete table journal in data base.
      */
-    public void delete()
+    public static void delete()
     {
         Connection connection = ConnectionDB.getConnection();
         try {
             Statement statement = connection.createStatement();
 
-            String query = "DROP TABLE journal ";
+            String query = "DELETE FROM journal ";
             statement.executeUpdate(query);
         }
         catch (SQLException ex)

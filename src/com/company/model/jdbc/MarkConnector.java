@@ -8,6 +8,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 import java.math.BigInteger;
 import java.sql.*;
+import java.util.List;
 
 
 /**
@@ -63,9 +64,9 @@ public class MarkConnector
 
     /**
      * Function insert new tuple of {@link Mark} object in table.
-     * @param mark - object of {@link Mark} type.
+     * @param marks - object of {@link Mark} type.
      */
-    public static void insert(Mark mark)
+    public static void insert(Marks marks)
     {
         Connection connection = ConnectionDB.getConnection();
 
@@ -75,14 +76,19 @@ public class MarkConnector
                             + "VALUES (?,?,?,?,?,?)"
             );
 
-            preparedStatement.setInt(1, mark.getId().intValue());
-            preparedStatement.setBoolean(2, mark.isIsDeleted());
-            preparedStatement.setInt(3, mark.getStudentId().intValue());
-            preparedStatement.setInt(4, mark.getTaskId().intValue());
-            preparedStatement.setInt(5, mark.getCriterionId().intValue());
-            preparedStatement.setInt(6, mark.getPoints().intValue());
+            List<Mark> markList = marks.getMarks();
 
-            preparedStatement.executeUpdate();
+            for (Mark mark:markList
+                 ) {
+                preparedStatement.setInt(1, mark.getId().intValue());
+                preparedStatement.setBoolean(2, mark.isIsDeleted());
+                preparedStatement.setInt(3, mark.getStudentId().intValue());
+                preparedStatement.setInt(4, mark.getTaskId().intValue());
+                preparedStatement.setInt(5, mark.getCriterionId().intValue());
+                preparedStatement.setInt(6, mark.getPoints().intValue());
+
+                preparedStatement.executeUpdate();
+            }
         }
         catch (SQLException ex)
         {
@@ -94,13 +100,13 @@ public class MarkConnector
     /**
      * Delete table mark in data base.
      */
-    public void delete()
+    public static void delete()
     {
         Connection connection = ConnectionDB.getConnection();
         try {
             Statement statement = connection.createStatement();
 
-            String query = "DROP TABLE mark ";
+            String query = "DELETE FROM mark ";
             statement.executeUpdate(query);
         }
         catch (SQLException ex)

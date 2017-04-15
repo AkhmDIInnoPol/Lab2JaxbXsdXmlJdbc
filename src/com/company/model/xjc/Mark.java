@@ -199,4 +199,16 @@ public class Mark {
         this.points = value;
     }
 
+
+    @Override
+    public String toString() {
+        return "Mark{" +
+                "id=" + id +
+                ", isDeleted=" + isDeleted +
+                ", studentId=" + studentId +
+                ", taskId=" + taskId +
+                ", criterionId=" + criterionId +
+                ", points=" + points +
+                '}';
+    }
 }

@@ -99,6 +99,26 @@ VALUES ('STC05', 'java', 'false');
 
 
 
+
+
+
+INSERT INTO task_to_group
+(task_id, study_group_id, is_active, end_date)
+VALUES (1, 1, 'true', '2017-4-30');
+
+
+INSERT INTO task_to_group
+(task_id, study_group_id, is_active, end_date)
+VALUES (2, 1, 'true', '2017-4-29');
+
+
+
+
+
+
+
+
+
 INSERT INTO lesson
 (study_group_id,lesson_date,  room, topic, description, lesson_comment, token, token_expiration, is_deleted)
 VALUES (1,'2017-4-28', 501, 'Collections',

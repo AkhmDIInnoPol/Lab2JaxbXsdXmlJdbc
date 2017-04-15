@@ -8,6 +8,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 import java.math.BigInteger;
 import java.sql.*;
+import java.util.List;
 
 /**
  * Connector to data base for {@link com.company.model.xjc.TaskToGroup} object.
@@ -48,7 +49,7 @@ public class TaskToGroupConnector
                 taskToGroup.setStudyGroupId(BigInteger.valueOf(result.getInt("study_group_id")));
                 taskToGroup.setIsActive(result.getBoolean("is_active"));
                 taskToGroup.setEndDate(GregXMLAndDateSQLConverter
-                        .convDateSqlToGregXml(result.getDate("criterion_id")));
+                        .convDateSqlToGregXml(result.getDate("end_date")));
 
                 taskToGroups.getTaskToGroups().add(taskToGroup);
             }
@@ -64,26 +65,33 @@ public class TaskToGroupConnector
 
     /**
      * Function insert new tuple of {@link TaskToGroup} object in table.
-     * @param taskToGroup - object of {@link TaskToGroup} type.
+     * @param taskToGroups - object of {@link TaskToGroup} type.
      */
-    public static void insert(TaskToGroup taskToGroup)
+    public static void insert(TaskToGroups taskToGroups)
     {
         Connection connection = ConnectionDB.getConnection();
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(
                     "INSERT INTO task_to_group(id, task_id, study_group_id, is_active, end_date) \n"
-                            + "VALUES (?,?,?,?,?,?)"
+                            + "VALUES (?,?,?,?,?)"
             );
 
-            preparedStatement.setInt(1, taskToGroup.getId().intValue());
-            preparedStatement.setInt(2, taskToGroup.getTaskId().intValue());
-            preparedStatement.setInt(3, taskToGroup.getStudyGroupId().intValue());
-            preparedStatement.setBoolean(4, taskToGroup.isIsActive());
-            preparedStatement.setDate(5,
-                    GregXMLAndDateSQLConverter.convGregXmlToDateSql(taskToGroup.getEndDate()));
+            List<TaskToGroup> taskToGroupList = taskToGroups.getTaskToGroups();
 
-            preparedStatement.executeUpdate();
+            for (TaskToGroup taskToGroup:taskToGroupList
+                 ) {
+                preparedStatement.setInt(1, taskToGroup.getId().intValue());
+                preparedStatement.setInt(2, taskToGroup.getTaskId().intValue());
+                preparedStatement.setInt(3, taskToGroup.getStudyGroupId().intValue());
+                preparedStatement.setBoolean(4, taskToGroup.isIsActive());
+                preparedStatement.setDate(5,
+                        GregXMLAndDateSQLConverter.convGregXmlToDateSql(taskToGroup.getEndDate()));
+
+                preparedStatement.executeUpdate();
+            }
+
+
         }
         catch (SQLException ex)
         {
@@ -96,13 +104,13 @@ public class TaskToGroupConnector
     /**
      * Delete table task_to_group in data base.
      */
-    public void delete()
+    public static void delete()
     {
         Connection connection = ConnectionDB.getConnection();
         try {
             Statement statement = connection.createStatement();
 
-            String query = "DROP TABLE task_to_group ";
+            String query = "DELETE FROM task_to_group ";
             statement.executeUpdate(query);
         }
         catch (SQLException ex)

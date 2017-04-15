@@ -174,4 +174,14 @@ public class Journal {
         this.isDeleted = value;
     }
 
+    @Override
+    public String toString() {
+        return "Journal{" +
+                "id=" + id +
+                ", lessonId=" + lessonId +
+                ", studentId=" + studentId +
+                ", timeCheck=" + timeCheck +
+                ", isDeleted=" + isDeleted +
+                '}';
+    }
 }
