@@ -23,15 +23,19 @@ public class TaskToGroupConnector
 
 
 
+    Connection connection;
 
+
+    public TaskToGroupConnector(Connection connection) {
+        this.connection = connection;
+    }
 
     /**
      * Get all tuple from taskToGroup table.
      * @return list of all taskToGroup objects that contain in table.
      */
-    public static TaskToGroups selectAll()
+    public TaskToGroups selectAll()
     {
-        Connection connection = ConnectionDB.getConnection();
 
         TaskToGroups taskToGroups = new TaskToGroups();
 
@@ -67,9 +71,8 @@ public class TaskToGroupConnector
      * Function insert new tuple of {@link TaskToGroup} object in table.
      * @param taskToGroups - object of {@link TaskToGroup} type.
      */
-    public static void insert(TaskToGroups taskToGroups)
+    public void insert(TaskToGroups taskToGroups)
     {
-        Connection connection = ConnectionDB.getConnection();
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(
@@ -104,9 +107,8 @@ public class TaskToGroupConnector
     /**
      * Delete table task_to_group in data base.
      */
-    public static void delete()
+    public void delete()
     {
-        Connection connection = ConnectionDB.getConnection();
         try {
             Statement statement = connection.createStatement();
 

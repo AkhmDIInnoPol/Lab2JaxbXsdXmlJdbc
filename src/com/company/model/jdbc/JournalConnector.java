@@ -23,13 +23,18 @@ public class JournalConnector
     private static final Logger logger = Logger.getLogger(JournalConnector.class);
 
 
+    private Connection connection;
+
+    public JournalConnector(Connection connection) {
+        this.connection = connection;
+    }
+
     /**
      * Get all tuple from journal table
      * @return list of all journal objects that contain in table.
      */
-    public static Journals selectAll()
+    public Journals selectAll()
     {
-        Connection connection = ConnectionDB.getConnection();
 
         Journals journals = new Journals();
 
@@ -65,9 +70,8 @@ public class JournalConnector
      * Function insert new tuple of {@link Journal} object in table.
      * @param journals - list of objects of type {@link Journal}.
      */
-    public static void insert(Journals journals)
+    public void insert(Journals journals)
     {
-        Connection connection = ConnectionDB.getConnection();
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(
@@ -99,9 +103,8 @@ public class JournalConnector
     /**
      * Delete table journal in data base.
      */
-    public static void delete()
+    public void delete()
     {
-        Connection connection = ConnectionDB.getConnection();
         try {
             Statement statement = connection.createStatement();
 

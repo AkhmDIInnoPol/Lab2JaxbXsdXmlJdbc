@@ -24,13 +24,22 @@ public class MarkConnector
     private static final Logger logger = Logger.getLogger(JournalConnector.class);
 
 
+
+    private Connection connection;
+
+
+
+    public MarkConnector(Connection connection) {
+        this.connection = connection;
+    }
+
+
     /**
      * Get all tuple from mark table
      * @return list of all mark objects that contain in table.
      */
-    public static Marks selectAll()
+    public Marks selectAll()
     {
-        Connection connection = ConnectionDB.getConnection();
 
         Marks marks = new Marks();
 
@@ -66,9 +75,8 @@ public class MarkConnector
      * Function insert new tuple of {@link Mark} object in table.
      * @param marks - object of {@link Mark} type.
      */
-    public static void insert(Marks marks)
+    public void insert(Marks marks)
     {
-        Connection connection = ConnectionDB.getConnection();
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(
@@ -100,9 +108,9 @@ public class MarkConnector
     /**
      * Delete table mark in data base.
      */
-    public static void delete()
+    public void delete()
     {
-        Connection connection = ConnectionDB.getConnection();
+
         try {
             Statement statement = connection.createStatement();
 

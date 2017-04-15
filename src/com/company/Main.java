@@ -1,21 +1,10 @@
 package com.company;
 
-import com.company.interactor.BackUpValidation;
-import com.company.model.jdbc.ConnectionDB;
-import com.company.model.xjc.Journal;
-import com.company.model.xjc.Journals;
-import com.company.model.xjc.Mark;
-import com.company.model.xml.JavaObjectXmlConverter;
+import com.company.interactor.BackUpCheckJournal;
+import com.company.interactor.BackUpCheckMark;
+import com.company.interactor.BackUpCheckTaskToGroup;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-
-
-import javax.xml.datatype.DatatypeConfigurationException;
-import javax.xml.datatype.DatatypeFactory;
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.GregorianCalendar;
-import java.util.List;
 
 public class Main {
 
@@ -33,20 +22,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ConnectionDB.initConnection();
-        logger.info("Save data in XML.\n");
-        BackUpValidation.saveData();
-        logger.info("Print data in data base:");
-        BackUpValidation.logDataInDB();
-        logger.info("\n");
-        logger.info("Delete tables content in data base.\n");
-        BackUpValidation.deleteTables();
-        logger.info("Print data in data base:");
-        BackUpValidation.logDataInDB();
-        logger.info("Backup data in data base.\n");
-        BackUpValidation.backupTables();
-        logger.info("Print data in data base:");
-        BackUpValidation.logDataInDB();
+        BackUpCheckJournal backUpCheckJournalThread = new BackUpCheckJournal();
+        backUpCheckJournalThread.start();
+
+        BackUpCheckMark backUpCheckMarkThread = new BackUpCheckMark();
+        backUpCheckMarkThread.start();
+
+        BackUpCheckTaskToGroup backUpCheckTaskToGroupThread = new BackUpCheckTaskToGroup();
+        backUpCheckTaskToGroupThread.start();
     }
 
 

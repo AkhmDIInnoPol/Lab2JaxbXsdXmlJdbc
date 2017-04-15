@@ -19,7 +19,7 @@ public class ConnectionDB
     private static final Logger logger = Logger.getLogger(ConnectionDB.class);
 
 
-    private static Connection connection;
+    private  Connection connection;
 
 
     /**
@@ -27,7 +27,7 @@ public class ConnectionDB
      * connection object for communication with data base.
      * @return - connection object for communication with data base.
      */
-    public static Connection initConnection()
+    public  Connection initConnection()
     {
         try {
             Class.forName("org.postgresql.Driver");
@@ -49,7 +49,7 @@ public class ConnectionDB
     }
 
 
-    public static Connection getConnection() {
+    public  Connection getConnection() {
         return connection;
     }
 
@@ -57,7 +57,7 @@ public class ConnectionDB
     /**
      * Close connection with data base.
      */
-    public static void closeConnection()
+    public  void closeConnection()
     {
         try {
             connection.close();
