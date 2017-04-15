@@ -1,6 +1,7 @@
 package com.company.model.jdbc;
 
 import com.company.model.xjc.Journal;
+import com.company.model.xjc.Journals;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
@@ -26,11 +27,11 @@ public class JournalConnector
      * Get all tuple from journal table
      * @return list of all journal objects that contain in table.
      */
-    public static List<Journal> selectAll()
+    public static Journals selectAll()
     {
         Connection connection = ConnectionDB.getConnection();
 
-        List<Journal> journals = new ArrayList<>();
+        Journals journals = new Journals();
 
         try {
             Statement statement = connection.createStatement();
@@ -48,7 +49,7 @@ public class JournalConnector
                         .convDateSqlToGregXml(result.getDate("time_check")));
                 journal.setIsDeleted(result.getBoolean("is_deleted"));
 
-                journals.add(journal);
+                journals.getJournals().add(journal);
             }
         }
         catch (SQLException ex)
@@ -90,7 +91,24 @@ public class JournalConnector
     }
 
 
+    /**
+     * Delete table journal in data base.
+     */
+    public void delete()
+    {
+        Connection connection = ConnectionDB.getConnection();
+        try {
+            Statement statement = connection.createStatement();
 
+            String query = "DROP TABLE journal ";
+            statement.executeUpdate(query);
+        }
+        catch (SQLException ex)
+        {
+            logger.error(ex);
+        }
+
+    }
 
 
 

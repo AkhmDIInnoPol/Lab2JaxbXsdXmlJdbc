@@ -12,26 +12,25 @@ import java.math.BigInteger;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for Journal complex type.
+ * <p>Java class for Mark complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="Journal">
+ * &lt;complexType name="Mark">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}integer"/>
- *         &lt;element name="lesson_id" type="{http://www.w3.org/2001/XMLSchema}integer"/>
- *         &lt;element name="student_id" type="{http://www.w3.org/2001/XMLSchema}integer"/>
- *         &lt;element name="time_check" type="{http://www.w3.org/2001/XMLSchema}dateTime"/>
  *         &lt;element name="is_deleted" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="student_id" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+ *         &lt;element name="task_id" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+ *         &lt;element name="criterion_id" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+ *         &lt;element name="points" type="{http://www.w3.org/2001/XMLSchema}integer"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -41,26 +40,28 @@ import javax.xml.datatype.XMLGregorianCalendar;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "Journal", propOrder = {
+@XmlType(name = "Mark", propOrder = {
     "id",
-    "lessonId",
+    "isDeleted",
     "studentId",
-    "timeCheck",
-    "isDeleted"
+    "taskId",
+    "criterionId",
+    "points"
 })
-public class Journal {
+public class Mark {
 
     @XmlElement(required = true)
     protected BigInteger id;
-    @XmlElement(name = "lesson_id", required = true)
-    protected BigInteger lessonId;
-    @XmlElement(name = "student_id", required = true)
-    protected BigInteger studentId;
-    @XmlElement(name = "time_check", required = true)
-    @XmlSchemaType(name = "dateTime")
-    protected XMLGregorianCalendar timeCheck;
     @XmlElement(name = "is_deleted")
     protected boolean isDeleted;
+    @XmlElement(name = "student_id", required = true)
+    protected BigInteger studentId;
+    @XmlElement(name = "task_id", required = true)
+    protected BigInteger taskId;
+    @XmlElement(name = "criterion_id", required = true)
+    protected BigInteger criterionId;
+    @XmlElement(required = true)
+    protected BigInteger points;
 
     /**
      * Gets the value of the id property.
@@ -87,27 +88,19 @@ public class Journal {
     }
 
     /**
-     * Gets the value of the lessonId property.
+     * Gets the value of the isDeleted property.
      * 
-     * @return
-     *     possible object is
-     *     {@link BigInteger }
-     *     
      */
-    public BigInteger getLessonId() {
-        return lessonId;
+    public boolean isIsDeleted() {
+        return isDeleted;
     }
 
     /**
-     * Sets the value of the lessonId property.
+     * Sets the value of the isDeleted property.
      * 
-     * @param value
-     *     allowed object is
-     *     {@link BigInteger }
-     *     
      */
-    public void setLessonId(BigInteger value) {
-        this.lessonId = value;
+    public void setIsDeleted(boolean value) {
+        this.isDeleted = value;
     }
 
     /**
@@ -135,43 +128,75 @@ public class Journal {
     }
 
     /**
-     * Gets the value of the timeCheck property.
+     * Gets the value of the taskId property.
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link BigInteger }
      *     
      */
-    public XMLGregorianCalendar getTimeCheck() {
-        return timeCheck;
+    public BigInteger getTaskId() {
+        return taskId;
     }
 
     /**
-     * Sets the value of the timeCheck property.
+     * Sets the value of the taskId property.
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link BigInteger }
      *     
      */
-    public void setTimeCheck(XMLGregorianCalendar value) {
-        this.timeCheck = value;
+    public void setTaskId(BigInteger value) {
+        this.taskId = value;
     }
 
     /**
-     * Gets the value of the isDeleted property.
+     * Gets the value of the criterionId property.
      * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
+     *     
      */
-    public boolean isIsDeleted() {
-        return isDeleted;
+    public BigInteger getCriterionId() {
+        return criterionId;
     }
 
     /**
-     * Sets the value of the isDeleted property.
+     * Sets the value of the criterionId property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
+     *     
      */
-    public void setIsDeleted(boolean value) {
-        this.isDeleted = value;
+    public void setCriterionId(BigInteger value) {
+        this.criterionId = value;
+    }
+
+    /**
+     * Gets the value of the points property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
+     *     
+     */
+    public BigInteger getPoints() {
+        return points;
+    }
+
+    /**
+     * Sets the value of the points property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
+     *     
+     */
+    public void setPoints(BigInteger value) {
+        this.points = value;
     }
 
 }

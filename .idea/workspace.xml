@@ -2,45 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18dac121-20f3-48bc-a8f9-f40690ab9be3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata.values.at" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/ConnectionDB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/GregXMLAndDateSQLConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/JournalConnector.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/Journal.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_0_0_jre6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lab2_jaxb_140417.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScriptInsert.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XSDtoJAXBscript.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/logger/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/logger/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/xjc/Journal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/xjc/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/xml/JournalXMLConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xsd/journal.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpValidation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/model/xjc/Journal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/model/xjc/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/model/xml/JournalXMLConverter.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/ObjectFactory.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/ObjectFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XSDtoJAXBscript.bat" afterPath="$PROJECT_DIR$/XSDtoJAXBscript.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xsd/journal.xsd" afterPath="$PROJECT_DIR$/xsd/journal.xsd" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,81 +87,54 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JournalXMLConverter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/model/xml/JournalXMLConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SRMStudyCenter.public.journal" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.journal">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1408">
+              <caret line="102" column="85" lean-forward="false" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java">
+      <file leaf-file-name="MarkConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="512">
+              <caret line="110" column="5" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="110" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
+                <marker date="1492271303933" expanded="true" signature="925:950" ph="select * fro... mark" />
+                <marker date="1492271303933" expanded="true" signature="2060:2191" ph="INSERT INTO mark... " />
+                <marker date="1492271303933" expanded="true" signature="3044:3059" ph="DROP TABLE m... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JournalConnector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
+      <file leaf-file-name="TaskToGroupConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            <state relative-caret-position="1104">
+              <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1492243756687" expanded="true" signature="926:947" ph="select * fro... book" />
-                <marker date="1492243756687" expanded="true" signature="926:954" ph="select * fro... journal" />
-                <marker date="1492243756687" expanded="true" signature="2079:2149" ph="INSERT INTO journal... " />
-                <marker date="1492243756687" expanded="true" signature="2079:2195" ph="INSERT INTO journal... " />
+                <marker date="1492271304089" expanded="true" signature="997:1031" ph="select * fro... task_to_group" />
+                <marker date="1492271304089" expanded="true" signature="2239:2370" ph="INSERT INTO task_to_group... " />
+                <marker date="1492271304089" expanded="true" signature="3255:3279" ph="DROP TABLE t... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
+      <file leaf-file-name="BackUpValidation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="438">
+              <caret line="28" column="99" lean-forward="false" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,236 +146,219 @@
               <ID>DATABASE</ID>
               <OriginalElement>365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public</OriginalElement>
               <nodes>
-                <node x="1637.0181818181818" y="789.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
-                <node x="2242.5833333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
-                <node x="296.57777777777756" y="844.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
-                <node x="1884.0833333333335" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
-                <node x="319.82777777777756" y="1090.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
-                <node x="2066.0833333333335" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
-                <node x="550.5000000000001" y="833.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
-                <node x="0.0" y="822.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
-                <node x="287.0000000000001" y="268.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
-                <node x="332.5000000000001" y="565.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
-                <node x="1336.9550505050504" y="789.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
-                <node x="1579.0393939393941" y="565.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
-                <node x="716.3333333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
-                <node x="30.5" y="488.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
-                <node x="885.809595959596" y="510.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
-                <node x="1818.0833333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
-                <node x="1732.5181818181818" y="1068.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
-                <node x="0.0" y="1276.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
-                <node x="1607.651515151515" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
-                <node x="1307.75" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
-                <node x="2005.0833333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
-                <node x="1147.809595959596" y="532.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
-                <node x="2268.0833333333335" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
-                <node x="1369.809595959596" y="565.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
-                <node x="494.5000000000001" y="543.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
-                <node x="703.809595959596" y="554.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
-                <node x="1064.6015151515153" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
+                <node x="99.5" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
+                <node x="1507.5451612903225" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
+                <node x="381.5" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
+                <node x="994.6701612903223" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
+                <node x="289.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
+                <node x="1176.6701612903223" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
+                <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
+                <node x="707.0833333333333" y="931.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
+                <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
+                <node x="797.9201612903223" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
+                <node x="396.7516129032258" y="887.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
+                <node x="27.33333333333337" y="55.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
+                <node x="762.4201612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
+                <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
+                <node x="959.9201612903223" y="608.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
+                <node x="928.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
+                <node x="64.0" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
+                <node x="0.0" y="1161.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
+                <node x="474.58682795698905" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
+                <node x="1915.708333333333" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
+                <node x="1115.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
+                <node x="1747.9045698924729" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
+                <node x="1969.9045698924729" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
+                <node x="1533.0451612903225" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
+                <node x="1540.7951612903225" y="641.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
+                <node x="571.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
+                <node x="1669.5451612903225" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-                  <point x="-67.33333333333326" y="-81.5" />
-                  <point x="1181.4762626262627" y="438.0" />
-                  <point x="844.1333333333334" y="438.0" />
-                  <point x="56.799999999999955" y="48.5" />
-                </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation">
                   <point x="35.5" y="-48.5" />
                   <point x="0.0" y="59.5" />
+                </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+                  <point x="-67.33333333333326" y="-81.5" />
+                  <point x="1781.5712365591394" y="526.0" />
+                  <point x="890.2201612903223" y="526.0" />
+                  <point x="56.799999999999955" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
                   <point x="35.5" y="-48.5" />
                   <point x="-40.5" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
-                  <point x="-45.5" y="-70.5" />
-                  <point x="596.0000000000001" y="764.0" />
-                  <point x="242.0" y="764.0" />
-                  <point x="70.5" y="125.5" />
-                </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-                  <point x="87.33333333333326" y="-114.5" />
-                  <point x="1555.2883838383837" y="764.0" />
-                  <point x="1614.5393939393941" y="764.0" />
-                  <point x="-35.5" y="48.5" />
+                  <point x="45.5" y="-70.5" />
+                  <point x="843.5833333333333" y="862.0" />
+                  <point x="1292.4201612903223" y="862.0" />
+                  <point x="-70.5" y="125.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
                   <point x="0.0" y="-81.5" />
-                  <point x="1248.809595959596" y="428.0" />
-                  <point x="1178.3515151515153" y="428.0" />
+                  <point x="1848.9045698924729" y="516.0" />
+                  <point x="1783.2951612903225" y="516.0" />
                   <point x="22.75" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
                   <point x="60.5" y="-103.5" />
-                  <point x="1067.309595959596" y="468.0" />
-                  <point x="1132.8515151515153" y="468.0" />
-                  <point x="-22.75" y="70.5" />
+                  <point x="1141.4201612903223" y="556.0" />
+                  <point x="1692.2951612903225" y="556.0" />
+                  <point x="-68.25" y="70.5" />
                 </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-                  <point x="57.75" y="-59.5" />
-                  <point x="493.07777777777756" y="1043.0" />
-                  <point x="1702.5181818181818" y="1043.0" />
-                  <point x="-65.5" y="114.5" />
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
+                  <point x="-87.33333333333337" y="-114.5" />
+                  <point x="440.41827956989243" y="862.0" />
+                  <point x="53.5" y="862.0" />
+                  <point x="53.5" y="237.0" />
+                  <point x="62.83333333333337" y="237.0" />
+                  <point x="-35.5" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
-                  <point x="35.5" y="-48.5" />
-                  <point x="1476.309595959596" y="468.0" />
-                  <point x="1444.25" y="468.0" />
-                  <point x="45.5" y="70.5" />
+                  <point x="35.49999999999977" y="-48.5" />
+                  <point x="2076.404569892473" y="566.0" />
+                  <point x="2052.208333333333" y="566.0" />
+                  <point x="45.49999999999977" y="70.5" />
+                </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+                  <point x="-57.75" y="-59.5" />
+                  <point x="347.0" y="566.0" />
+                  <point x="296.0" y="566.0" />
+                  <point x="65.5" y="114.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="0.0" y="-114.5" />
-                  <point x="1467.9550505050504" y="764.0" />
-                  <point x="1529.8333333333335" y="764.0" />
-                  <point x="1529.8333333333335" y="237.0" />
-                  <point x="1680.251515151515" y="237.0" />
-                  <point x="-48.40000000000009" y="103.5" />
+                  <point x="527.7516129032258" y="862.0" />
+                  <point x="554.0" y="862.0" />
+                  <point x="554.0" y="237.0" />
+                  <point x="595.586827956989" y="237.0" />
+                  <point x="0.0" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
                   <point x="0.0" y="-125.5" />
-                  <point x="171.5" y="468.0" />
-                  <point x="314.0000000000001" y="468.0" />
-                  <point x="-54.0" y="59.5" />
+                  <point x="0.0" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="0.0" y="-48.5" />
-                  <point x="787.3333333333335" y="227.0" />
-                  <point x="1631.8515151515153" y="227.0" />
-                  <point x="-96.79999999999995" y="103.5" />
+                  <point x="833.4201612903223" y="237.0" />
+                  <point x="643.9868279569891" y="237.0" />
+                  <point x="48.40000000000009" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire">
-                  <point x="-57.75" y="-59.5" />
+                  <point x="57.75" y="-59.5" />
                   <point x="0.0" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
-                  <point x="-35.5" y="-48.5" />
-                  <point x="0.0" y="59.5" />
-                </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-                  <point x="-35.5" y="-48.5" />
-                  <point x="1853.5833333333335" y="237.0" />
-                  <point x="1825.4515151515152" y="237.0" />
-                  <point x="96.79999999999995" y="103.5" />
+                  <point x="35.5" y="-48.5" />
+                  <point x="904.4201612903223" y="546.0" />
+                  <point x="1308.9201612903223" y="546.0" />
+                  <point x="-54.0" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
                   <point x="0.0" y="-81.5" />
-                  <point x="65.5" y="114.5" />
+                  <point x="-65.5" y="114.5" />
+                </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+                  <point x="-35.5" y="-48.5" />
+                  <point x="964.1701612903223" y="227.0" />
+                  <point x="692.3868279569891" y="227.0" />
+                  <point x="96.80000000000007" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-                  <point x="0.0" y="-114.5" />
-                  <point x="1768.0181818181818" y="764.0" />
-                  <point x="1761.3717171717171" y="764.0" />
-                  <point x="1761.3717171717171" y="237.0" />
-                  <point x="1728.651515151515" y="237.0" />
-                  <point x="0.0" y="103.5" />
+                  <point x="87.33333333333331" y="-114.5" />
+                  <point x="317.83333333333337" y="237.0" />
+                  <point x="547.1868279569891" y="237.0" />
+                  <point x="-48.39999999999998" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
                   <point x="-45.5" y="-70.5" />
-                  <point x="540.0000000000001" y="428.0" />
-                  <point x="422.0000000000001" y="428.0" />
+                  <point x="1586.2951612903225" y="546.0" />
+                  <point x="1416.9201612903223" y="546.0" />
                   <point x="54.0" y="59.5" />
+                </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
+                  <point x="-35.5" y="-48.5" />
+                  <point x="1543.0451612903225" y="237.0" />
+                  <point x="1313.1701612903223" y="237.0" />
+                  <point x="45.5" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
                   <point x="35.5" y="-48.5" />
                   <point x="-45.5" y="70.5" />
                 </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
-                  <point x="-35.5" y="-48.5" />
-                  <point x="2278.0833333333335" y="237.0" />
-                  <point x="2202.5833333333335" y="237.0" />
-                  <point x="45.5" y="70.5" />
-                </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
                   <point x="45.5" y="-70.5" />
-                  <point x="631.0000000000001" y="458.0" />
-                  <point x="1087.3515151515153" y="458.0" />
-                  <point x="-68.25" y="70.5" />
+                  <point x="1677.2951612903225" y="566.0" />
+                  <point x="1737.7951612903225" y="566.0" />
+                  <point x="-22.75" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-                  <point x="-35.5" y="-48.5" />
-                  <point x="1405.309595959596" y="418.0" />
-                  <point x="1223.8515151515153" y="418.0" />
+                  <point x="-35.50000000000023" y="-48.5" />
+                  <point x="2005.4045698924729" y="506.0" />
+                  <point x="1828.7951612903225" y="506.0" />
                   <point x="68.25" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
                   <point x="0.0" y="-81.5" />
-                  <point x="-70.5" y="125.5" />
+                  <point x="70.5" y="125.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
                   <point x="-35.5" y="-48.5" />
-                  <point x="2040.5833333333335" y="237.0" />
-                  <point x="2005.5833333333335" y="237.0" />
+                  <point x="1151.1701612903223" y="237.0" />
+                  <point x="1116.1701612903223" y="237.0" />
                   <point x="40.5" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-                  <point x="-87.33333333333326" y="-114.5" />
-                  <point x="1680.6848484848485" y="764.0" />
-                  <point x="1685.5393939393941" y="764.0" />
+                  <point x="-87.33333333333331" y="-114.5" />
+                  <point x="143.16666666666663" y="237.0" />
+                  <point x="133.83333333333337" y="237.0" />
                   <point x="35.5" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-                  <point x="35.5" y="-48.5" />
-                  <point x="439.0000000000001" y="438.0" />
-                  <point x="730.5333333333335" y="438.0" />
-                  <point x="-56.799999999999955" y="48.5" />
+                  <point x="-35.5" y="-48.5" />
+                  <point x="0.0" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance">
-                  <point x="-87.33333333333326" y="-114.5" />
-                  <point x="1380.6217171717171" y="764.0" />
-                  <point x="784.809595959596" y="764.0" />
+                  <point x="87.33333333333337" y="-114.5" />
+                  <point x="615.0849462365592" y="862.0" />
+                  <point x="652.25" y="862.0" />
                   <point x="0.0" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-                  <point x="45.5" y="-70.5" />
-                  <point x="687.0000000000001" y="448.0" />
-                  <point x="758.9333333333335" y="448.0" />
+                  <point x="-45.5" y="-70.5" />
+                  <point x="752.5833333333333" y="566.0" />
+                  <point x="805.0201612903224" y="566.0" />
                   <point x="-28.399999999999977" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="-60.5" y="-103.5" />
-                  <point x="946.309595959596" y="448.0" />
-                  <point x="815.7333333333335" y="448.0" />
+                  <point x="1020.4201612903223" y="536.0" />
+                  <point x="861.8201612903224" y="536.0" />
                   <point x="28.399999999999977" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
                   <point x="67.33333333333326" y="-81.5" />
-                  <point x="1316.1429292929292" y="468.0" />
-                  <point x="1353.25" y="468.0" />
+                  <point x="1916.237903225806" y="566.0" />
+                  <point x="1961.208333333333" y="566.0" />
                   <point x="-45.5" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="0.0" y="-59.5" />
-                  <point x="784.809595959596" y="448.0" />
-                  <point x="787.3333333333335" y="448.0" />
-                  <point x="0.0" y="48.5" />
+                  <point x="652.25" y="556.0" />
+                  <point x="776.6201612903224" y="556.0" />
+                  <point x="-56.799999999999955" y="48.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.1190534475724194" x="447.4669680618346" y="954.4669680618347" />
+              <settings layout="Hierarchic Group" zoom="0.8" x="1366.0" y="659.0" />
               <SelectedNodes>
-                <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
+                <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
               </SelectedNodes>
               <Categories>
-                <Category>Key columns</Category>
                 <Category>Columns</Category>
+                <Category>Key columns</Category>
               </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SRMStudyCenter.public.student" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -455,14 +386,20 @@
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/Connection.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql" />
         <option value="dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student" />
-        <option value="$PROJECT_DIR$/src/com/company/model/xjc/Journal.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/DateToDateSQLConverter.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/xml/JournalXMLConv.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/xml/JournalXMLConverter.java" />
+        <option value="$PROJECT_DIR$/xsd/journal.xsd" />
+        <option value="$PROJECT_DIR$/xml/journal.xml" />
+        <option value="$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/xjc/Journal.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpValidation.java" />
       </list>
     </option>
   </component>
@@ -494,9 +431,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -558,6 +492,10 @@
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -578,10 +516,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -613,6 +547,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1052,46 +989,49 @@
       <workItem from="1492182376714" duration="1084000" />
       <workItem from="1492186384105" duration="12000" />
       <workItem from="1492189141438" duration="5472000" />
-      <workItem from="1492235024077" duration="9137000" />
+      <workItem from="1492235024077" duration="13676000" />
+      <workItem from="1492253009396" duration="65000" />
+      <workItem from="1492253471253" duration="3955000" />
+      <workItem from="1492257480011" duration="10052000" />
+      <workItem from="1492270638975" duration="1932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23993000" />
+    <option name="totallyTimeSpent" value="44536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16816431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1758665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409396" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1102,7 +1042,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1110,52 +1052,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/logger/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1492243756687" expanded="true" signature="926:947" ph="select * fro... book" />
-            <marker date="1492243756687" expanded="true" signature="926:954" ph="select * fro... journal" />
-            <marker date="1492243756687" expanded="true" signature="2079:2149" ph="INSERT INTO journal... " />
-            <marker date="1492243756687" expanded="true" signature="2079:2195" ph="INSERT INTO journal... " />
+            <marker date="1492271303995" expanded="true" signature="952:973" ph="select * fro... book" />
+            <marker date="1492271303995" expanded="true" signature="952:980" ph="select * fro... journal" />
+            <marker date="1492271303995" expanded="true" signature="2119:2189" ph="INSERT INTO journal... " />
+            <marker date="1492271303995" expanded="true" signature="2119:2235" ph="INSERT INTO journal... " />
+            <marker date="1492271303995" expanded="true" signature="3132:3150" ph="DROP TABLE j... " />
           </folding>
         </state>
       </provider>
@@ -1164,9 +1070,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,9 +1087,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,9 +1104,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1547,28 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1584,233 +1459,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="51" column="85" lean-forward="false" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public</OriginalElement>
-          <nodes>
-            <node x="1637.0181818181818" y="789.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
-            <node x="2242.5833333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
-            <node x="296.57777777777756" y="844.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
-            <node x="1884.0833333333335" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
-            <node x="319.82777777777756" y="1090.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
-            <node x="2066.0833333333335" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
-            <node x="550.5000000000001" y="833.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
-            <node x="0.0" y="822.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
-            <node x="287.0000000000001" y="268.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
-            <node x="332.5000000000001" y="565.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
-            <node x="1336.9550505050504" y="789.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
-            <node x="1579.0393939393941" y="565.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
-            <node x="716.3333333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
-            <node x="30.5" y="488.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
-            <node x="885.809595959596" y="510.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
-            <node x="1818.0833333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
-            <node x="1732.5181818181818" y="1068.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
-            <node x="0.0" y="1276.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
-            <node x="1607.651515151515" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
-            <node x="1307.75" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
-            <node x="2005.0833333333335" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
-            <node x="1147.809595959596" y="532.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
-            <node x="2268.0833333333335" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
-            <node x="1369.809595959596" y="565.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
-            <node x="494.5000000000001" y="543.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
-            <node x="703.809595959596" y="554.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
-            <node x="1064.6015151515153" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="-67.33333333333326" y="-81.5" />
-              <point x="1181.4762626262627" y="438.0" />
-              <point x="844.1333333333334" y="438.0" />
-              <point x="56.799999999999955" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation">
-              <point x="35.5" y="-48.5" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
-              <point x="35.5" y="-48.5" />
-              <point x="-40.5" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
-              <point x="-45.5" y="-70.5" />
-              <point x="596.0000000000001" y="764.0" />
-              <point x="242.0" y="764.0" />
-              <point x="70.5" y="125.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-              <point x="87.33333333333326" y="-114.5" />
-              <point x="1555.2883838383837" y="764.0" />
-              <point x="1614.5393939393941" y="764.0" />
-              <point x="-35.5" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="0.0" y="-81.5" />
-              <point x="1248.809595959596" y="428.0" />
-              <point x="1178.3515151515153" y="428.0" />
-              <point x="22.75" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="60.5" y="-103.5" />
-              <point x="1067.309595959596" y="468.0" />
-              <point x="1132.8515151515153" y="468.0" />
-              <point x="-22.75" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-              <point x="57.75" y="-59.5" />
-              <point x="493.07777777777756" y="1043.0" />
-              <point x="1702.5181818181818" y="1043.0" />
-              <point x="-65.5" y="114.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
-              <point x="35.5" y="-48.5" />
-              <point x="1476.309595959596" y="468.0" />
-              <point x="1444.25" y="468.0" />
-              <point x="45.5" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="0.0" y="-114.5" />
-              <point x="1467.9550505050504" y="764.0" />
-              <point x="1529.8333333333335" y="764.0" />
-              <point x="1529.8333333333335" y="237.0" />
-              <point x="1680.251515151515" y="237.0" />
-              <point x="-48.40000000000009" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
-              <point x="0.0" y="-125.5" />
-              <point x="171.5" y="468.0" />
-              <point x="314.0000000000001" y="468.0" />
-              <point x="-54.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="0.0" y="-48.5" />
-              <point x="787.3333333333335" y="227.0" />
-              <point x="1631.8515151515153" y="227.0" />
-              <point x="-96.79999999999995" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire">
-              <point x="-57.75" y="-59.5" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
-              <point x="-35.5" y="-48.5" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="-35.5" y="-48.5" />
-              <point x="1853.5833333333335" y="237.0" />
-              <point x="1825.4515151515152" y="237.0" />
-              <point x="96.79999999999995" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-              <point x="0.0" y="-81.5" />
-              <point x="65.5" y="114.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="0.0" y="-114.5" />
-              <point x="1768.0181818181818" y="764.0" />
-              <point x="1761.3717171717171" y="764.0" />
-              <point x="1761.3717171717171" y="237.0" />
-              <point x="1728.651515151515" y="237.0" />
-              <point x="0.0" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
-              <point x="-45.5" y="-70.5" />
-              <point x="540.0000000000001" y="428.0" />
-              <point x="422.0000000000001" y="428.0" />
-              <point x="54.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
-              <point x="35.5" y="-48.5" />
-              <point x="-45.5" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
-              <point x="-35.5" y="-48.5" />
-              <point x="2278.0833333333335" y="237.0" />
-              <point x="2202.5833333333335" y="237.0" />
-              <point x="45.5" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="45.5" y="-70.5" />
-              <point x="631.0000000000001" y="458.0" />
-              <point x="1087.3515151515153" y="458.0" />
-              <point x="-68.25" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="-35.5" y="-48.5" />
-              <point x="1405.309595959596" y="418.0" />
-              <point x="1223.8515151515153" y="418.0" />
-              <point x="68.25" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
-              <point x="0.0" y="-81.5" />
-              <point x="-70.5" y="125.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
-              <point x="-35.5" y="-48.5" />
-              <point x="2040.5833333333335" y="237.0" />
-              <point x="2005.5833333333335" y="237.0" />
-              <point x="40.5" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-              <point x="-87.33333333333326" y="-114.5" />
-              <point x="1680.6848484848485" y="764.0" />
-              <point x="1685.5393939393941" y="764.0" />
-              <point x="35.5" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="35.5" y="-48.5" />
-              <point x="439.0000000000001" y="438.0" />
-              <point x="730.5333333333335" y="438.0" />
-              <point x="-56.799999999999955" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance">
-              <point x="-87.33333333333326" y="-114.5" />
-              <point x="1380.6217171717171" y="764.0" />
-              <point x="784.809595959596" y="764.0" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="45.5" y="-70.5" />
-              <point x="687.0000000000001" y="448.0" />
-              <point x="758.9333333333335" y="448.0" />
-              <point x="-28.399999999999977" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="-60.5" y="-103.5" />
-              <point x="946.309595959596" y="448.0" />
-              <point x="815.7333333333335" y="448.0" />
-              <point x="28.399999999999977" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
-              <point x="67.33333333333326" y="-81.5" />
-              <point x="1316.1429292929292" y="468.0" />
-              <point x="1353.25" y="468.0" />
-              <point x="-45.5" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="0.0" y="-59.5" />
-              <point x="784.809595959596" y="448.0" />
-              <point x="787.3333333333335" y="448.0" />
-              <point x="0.0" y="48.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1190534475724194" x="447.4669680618346" y="954.4669680618347" />
-          <SelectedNodes>
-            <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="78" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1272#1273#0" expanded="false" />
+            <element signature="e#1305#1306#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1823,64 +1483,393 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xsd/journal.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/xml/bind/Marshaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1454">
+          <caret line="425" column="16" lean-forward="false" selection-start-line="425" selection-start-column="16" selection-end-line="425" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/Marks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/StudentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/Journal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-          <folding>
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4142#4143#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="577">
+          <caret line="174" column="5" lean-forward="false" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/StudentActivities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/journal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/TaskToGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/TaskToGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        <state relative-caret-position="248">
+          <caret line="94" column="27" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+          <folding>
+            <marker date="1492271303995" expanded="true" signature="952:973" ph="select * fro... book" />
+            <marker date="1492271303995" expanded="true" signature="952:980" ph="select * fro... journal" />
+            <marker date="1492271303995" expanded="true" signature="2119:2189" ph="INSERT INTO journal... " />
+            <marker date="1492271303995" expanded="true" signature="2119:2235" ph="INSERT INTO journal... " />
+            <marker date="1492271303995" expanded="true" signature="3132:3150" ph="DROP TABLE j... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="110" column="5" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="110" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1492243756687" expanded="true" signature="926:947" ph="select * fro... book" />
-            <marker date="1492243756687" expanded="true" signature="926:954" ph="select * fro... journal" />
-            <marker date="1492243756687" expanded="true" signature="2079:2149" ph="INSERT INTO journal... " />
-            <marker date="1492243756687" expanded="true" signature="2079:2195" ph="INSERT INTO journal... " />
+            <marker date="1492271303933" expanded="true" signature="925:950" ph="select * fro... mark" />
+            <marker date="1492271303933" expanded="true" signature="2060:2191" ph="INSERT INTO mark... " />
+            <marker date="1492271303933" expanded="true" signature="3044:3059" ph="DROP TABLE m... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public</OriginalElement>
+          <nodes>
+            <node x="99.5" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
+            <node x="1507.5451612903225" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
+            <node x="381.5" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
+            <node x="994.6701612903223" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
+            <node x="289.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
+            <node x="1176.6701612903223" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
+            <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
+            <node x="707.0833333333333" y="931.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
+            <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
+            <node x="797.9201612903223" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
+            <node x="396.7516129032258" y="887.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
+            <node x="27.33333333333337" y="55.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
+            <node x="762.4201612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
+            <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
+            <node x="959.9201612903223" y="608.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
+            <node x="928.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
+            <node x="64.0" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
+            <node x="0.0" y="1161.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
+            <node x="474.58682795698905" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
+            <node x="1915.708333333333" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
+            <node x="1115.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
+            <node x="1747.9045698924729" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
+            <node x="1969.9045698924729" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
+            <node x="1533.0451612903225" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
+            <node x="1540.7951612903225" y="641.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
+            <node x="571.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
+            <node x="1669.5451612903225" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation">
+              <point x="35.5" y="-48.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-67.33333333333326" y="-81.5" />
+              <point x="1781.5712365591394" y="526.0" />
+              <point x="890.2201612903223" y="526.0" />
+              <point x="56.799999999999955" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
+              <point x="35.5" y="-48.5" />
+              <point x="-40.5" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
+              <point x="45.5" y="-70.5" />
+              <point x="843.5833333333333" y="862.0" />
+              <point x="1292.4201612903223" y="862.0" />
+              <point x="-70.5" y="125.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="0.0" y="-81.5" />
+              <point x="1848.9045698924729" y="516.0" />
+              <point x="1783.2951612903225" y="516.0" />
+              <point x="22.75" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="60.5" y="-103.5" />
+              <point x="1141.4201612903223" y="556.0" />
+              <point x="1692.2951612903225" y="556.0" />
+              <point x="-68.25" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
+              <point x="-87.33333333333337" y="-114.5" />
+              <point x="440.41827956989243" y="862.0" />
+              <point x="53.5" y="862.0" />
+              <point x="53.5" y="237.0" />
+              <point x="62.83333333333337" y="237.0" />
+              <point x="-35.5" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
+              <point x="35.49999999999977" y="-48.5" />
+              <point x="2076.404569892473" y="566.0" />
+              <point x="2052.208333333333" y="566.0" />
+              <point x="45.49999999999977" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+              <point x="-57.75" y="-59.5" />
+              <point x="347.0" y="566.0" />
+              <point x="296.0" y="566.0" />
+              <point x="65.5" y="114.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="0.0" y="-114.5" />
+              <point x="527.7516129032258" y="862.0" />
+              <point x="554.0" y="862.0" />
+              <point x="554.0" y="237.0" />
+              <point x="595.586827956989" y="237.0" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
+              <point x="0.0" y="-125.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="0.0" y="-48.5" />
+              <point x="833.4201612903223" y="237.0" />
+              <point x="643.9868279569891" y="237.0" />
+              <point x="48.40000000000009" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire">
+              <point x="57.75" y="-59.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
+              <point x="35.5" y="-48.5" />
+              <point x="904.4201612903223" y="546.0" />
+              <point x="1308.9201612903223" y="546.0" />
+              <point x="-54.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+              <point x="0.0" y="-81.5" />
+              <point x="-65.5" y="114.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="-35.5" y="-48.5" />
+              <point x="964.1701612903223" y="227.0" />
+              <point x="692.3868279569891" y="227.0" />
+              <point x="96.80000000000007" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="87.33333333333331" y="-114.5" />
+              <point x="317.83333333333337" y="237.0" />
+              <point x="547.1868279569891" y="237.0" />
+              <point x="-48.39999999999998" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
+              <point x="-45.5" y="-70.5" />
+              <point x="1586.2951612903225" y="546.0" />
+              <point x="1416.9201612903223" y="546.0" />
+              <point x="54.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
+              <point x="-35.5" y="-48.5" />
+              <point x="1543.0451612903225" y="237.0" />
+              <point x="1313.1701612903223" y="237.0" />
+              <point x="45.5" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
+              <point x="35.5" y="-48.5" />
+              <point x="-45.5" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="45.5" y="-70.5" />
+              <point x="1677.2951612903225" y="566.0" />
+              <point x="1737.7951612903225" y="566.0" />
+              <point x="-22.75" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="-35.50000000000023" y="-48.5" />
+              <point x="2005.4045698924729" y="506.0" />
+              <point x="1828.7951612903225" y="506.0" />
+              <point x="68.25" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
+              <point x="0.0" y="-81.5" />
+              <point x="70.5" y="125.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
+              <point x="-35.5" y="-48.5" />
+              <point x="1151.1701612903223" y="237.0" />
+              <point x="1116.1701612903223" y="237.0" />
+              <point x="40.5" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
+              <point x="-87.33333333333331" y="-114.5" />
+              <point x="143.16666666666663" y="237.0" />
+              <point x="133.83333333333337" y="237.0" />
+              <point x="35.5" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-35.5" y="-48.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance">
+              <point x="87.33333333333337" y="-114.5" />
+              <point x="615.0849462365592" y="862.0" />
+              <point x="652.25" y="862.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-45.5" y="-70.5" />
+              <point x="752.5833333333333" y="566.0" />
+              <point x="805.0201612903224" y="566.0" />
+              <point x="-28.399999999999977" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-60.5" y="-103.5" />
+              <point x="1020.4201612903223" y="536.0" />
+              <point x="861.8201612903224" y="536.0" />
+              <point x="28.399999999999977" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
+              <point x="67.33333333333326" y="-81.5" />
+              <point x="1916.237903225806" y="566.0" />
+              <point x="1961.208333333333" y="566.0" />
+              <point x="-45.5" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="0.0" y="-59.5" />
+              <point x="652.25" y="556.0" />
+              <point x="776.6201612903224" y="556.0" />
+              <point x="-56.799999999999955" y="48.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8" x="1366.0" y="659.0" />
+          <SelectedNodes>
+            <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1492271304089" expanded="true" signature="997:1031" ph="select * fro... task_to_group" />
+            <marker date="1492271304089" expanded="true" signature="2239:2370" ph="INSERT INTO task_to_group... " />
+            <marker date="1492271304089" expanded="true" signature="3255:3279" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/Journals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="28" column="99" lean-forward="false" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/xml/JournalXMLConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1408">
+          <caret line="102" column="85" lean-forward="false" selection-start-line="102" selection-start-column="72" selection-end-line="102" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Journals>
+    <journals>
+        <id>6</id>
+        <lesson_id>1</lesson_id>
+        <student_id>2</student_id>
+        <time_check>2020-08-11T00:00:00.000+03:00</time_check>
+        <is_deleted>false</is_deleted>
+    </journals>
+    <journals>
+        <id>5</id>
+        <lesson_id>1</lesson_id>
+        <student_id>2</student_id>
+        <time_check>2020-08-11T00:00:00.000+03:00</time_check>
+        <is_deleted>false</is_deleted>
+    </journals>
+</Journals>
