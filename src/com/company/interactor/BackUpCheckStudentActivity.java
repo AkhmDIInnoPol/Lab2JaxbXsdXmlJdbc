@@ -38,6 +38,8 @@ public class BackUpCheckStudentActivity extends Thread
     @Override
     public void run() {
 
+
+
         buildStudentActivityConnection();
 
 
@@ -49,6 +51,8 @@ public class BackUpCheckStudentActivity extends Thread
 
         deleteTables();
 
+        startAndJoinOtherThread();
+
         backupTables();
 
 
@@ -56,6 +60,25 @@ public class BackUpCheckStudentActivity extends Thread
 
 
         connectionDB.closeConnection();
+
+
+
+    }
+
+
+
+    public void startAndJoinOtherThread()
+    {
+        BackUpCheckLesson backUpCheckLessonThread = new BackUpCheckLesson();
+        backUpCheckLessonThread.start();
+
+        try {
+            backUpCheckLessonThread.join();
+        }
+        catch (InterruptedException ex)
+        {
+            logger.error(ex.getMessage());
+        }
     }
 
 

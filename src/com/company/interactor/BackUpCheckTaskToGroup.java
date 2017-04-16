@@ -31,8 +31,12 @@ public class BackUpCheckTaskToGroup extends Thread
 
     private ConnectionDB connectionDB;
 
+
+
     @Override
     public void run() {
+
+
 
         buildTaskToGroupConnection();
 
@@ -52,7 +56,10 @@ public class BackUpCheckTaskToGroup extends Thread
 
 
         connectionDB.closeConnection();
+
     }
+
+
 
 
     /**

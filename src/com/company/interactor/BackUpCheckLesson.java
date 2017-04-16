@@ -24,6 +24,14 @@ public class BackUpCheckLesson extends Thread
 
 
 
+
+
+
+
+
+
+
+
     private static final String lessonsXmlFileName = "./xml/lesson";
 
     private LessonConnector lessonConnector;
@@ -33,8 +41,12 @@ public class BackUpCheckLesson extends Thread
 
 
 
+
+
+
     @Override
     public void run() {
+
 
         buildLessonConnection();
 
@@ -55,6 +67,11 @@ public class BackUpCheckLesson extends Thread
 
         connectionDB.closeConnection();
     }
+
+
+
+
+
 
 
     /**

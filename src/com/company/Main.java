@@ -18,7 +18,9 @@ public class Main {
 
 
 
+
     public static void main(String[] args) {
+
 
         BackUpCheckJournal backUpCheckJournalThread = new BackUpCheckJournal();
         backUpCheckJournalThread.start();
@@ -29,11 +31,11 @@ public class Main {
         BackUpCheckTaskToGroup backUpCheckTaskToGroupThread = new BackUpCheckTaskToGroup();
         backUpCheckTaskToGroupThread.start();
 
-        BackUpCheckStudentActivity backUpCheckStudentActivityThread = new BackUpCheckStudentActivity();
-        backUpCheckStudentActivityThread.start();
 
-        BackUpCheckLesson backUpCheckLessonThread = new BackUpCheckLesson();
-        backUpCheckLessonThread.start();
+
+//        BackUpCheckLesson backUpCheckLessonThread = new BackUpCheckLesson();
+//        backUpCheckLessonThread.start();
+
     }
 
 

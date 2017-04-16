@@ -35,8 +35,12 @@ public class BackUpCheckMark extends Thread
 
     private ConnectionDB connectionDB;
 
+
+
+
     @Override
     public void run() {
+
 
         buildMarkConnection();
 
@@ -57,6 +61,7 @@ public class BackUpCheckMark extends Thread
 
         connectionDB.closeConnection();
     }
+
 
 
     /**

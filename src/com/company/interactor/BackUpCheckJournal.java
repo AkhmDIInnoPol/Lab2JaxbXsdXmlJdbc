@@ -24,6 +24,8 @@ public class BackUpCheckJournal extends Thread
 
 
 
+    public static boolean isDone = false;
+
 
     private static final String journalsXmlFileName = "./xml/journal";
 
@@ -31,19 +33,28 @@ public class BackUpCheckJournal extends Thread
 
     private ConnectionDB connectionDB;
 
+
+    private Object waitOtherThreadObj;
+
+
+
+
+
+
     @Override
     public void run() {
 
+
+
         buildJournalConnection();
-
-
-
 
 
 
         saveData();
 
         deleteTables();
+
+        startAndJoinOtherThread();
 
         backupTables();
 
@@ -52,7 +63,27 @@ public class BackUpCheckJournal extends Thread
 
 
         connectionDB.closeConnection();
+
+
     }
+
+
+
+    public void startAndJoinOtherThread()
+    {
+        BackUpCheckStudentActivity backUpCheckStudentActivityThread = new BackUpCheckStudentActivity();
+        backUpCheckStudentActivityThread.start();
+        try {
+            backUpCheckStudentActivityThread.join();
+        }
+        catch (InterruptedException ex)
+        {
+            logger.error(ex.getMessage());
+        }
+
+    }
+
+
 
 
     /**

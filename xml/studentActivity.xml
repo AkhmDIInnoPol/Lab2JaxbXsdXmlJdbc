@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<StudentActivities/>
+<StudentActivities>
+    <studentActivities>
+        <id>6</id>
+        <student_id>1</student_id>
+        <lesson_id>1</lesson_id>
+        <activity_grade>5</activity_grade>
+        <activity_comment>enough active</activity_comment>
+        <is_deleted>false</is_deleted>
+    </studentActivities>
+    <studentActivities>
+        <id>7</id>
+        <student_id>2</student_id>
+        <lesson_id>1</lesson_id>
+        <activity_grade>5</activity_grade>
+        <activity_comment>enough active</activity_comment>
+        <is_deleted>false</is_deleted>
+    </studentActivities>
+</StudentActivities>
