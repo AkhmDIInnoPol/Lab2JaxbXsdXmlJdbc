@@ -1,8 +1,6 @@
 package com.company;
 
-import com.company.interactor.BackUpCheckJournal;
-import com.company.interactor.BackUpCheckMark;
-import com.company.interactor.BackUpCheckTaskToGroup;
+import com.company.interactor.*;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
@@ -24,12 +22,18 @@ public class Main {
 
         BackUpCheckJournal backUpCheckJournalThread = new BackUpCheckJournal();
         backUpCheckJournalThread.start();
-//
-//        BackUpCheckMark backUpCheckMarkThread = new BackUpCheckMark();
-//        backUpCheckMarkThread.start();
-//
-//        BackUpCheckTaskToGroup backUpCheckTaskToGroupThread = new BackUpCheckTaskToGroup();
-//        backUpCheckTaskToGroupThread.start();
+
+        BackUpCheckMark backUpCheckMarkThread = new BackUpCheckMark();
+        backUpCheckMarkThread.start();
+
+        BackUpCheckTaskToGroup backUpCheckTaskToGroupThread = new BackUpCheckTaskToGroup();
+        backUpCheckTaskToGroupThread.start();
+
+        BackUpCheckStudentActivity backUpCheckStudentActivityThread = new BackUpCheckStudentActivity();
+        backUpCheckStudentActivityThread.start();
+
+        BackUpCheckLesson backUpCheckLessonThread = new BackUpCheckLesson();
+        backUpCheckLessonThread.start();
     }
 
 

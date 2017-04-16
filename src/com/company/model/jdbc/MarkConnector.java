@@ -35,7 +35,7 @@ public class MarkConnector
 
 
     /**
-     * Get all tuple from mark table
+     * Get all tuple from {@link Mark} table
      * @return list of all mark objects that contain in table.
      */
     public Marks selectAll()
@@ -106,7 +106,7 @@ public class MarkConnector
 
 
     /**
-     * Delete table mark in data base.
+     * Delete table {@link Mark} in data base.
      */
     public void delete()
     {

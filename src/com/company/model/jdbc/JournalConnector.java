@@ -30,8 +30,8 @@ public class JournalConnector
     }
 
     /**
-     * Get all tuple from journal table
-     * @return list of all journal objects that contain in table.
+     * Get all tuple from {@link Journal} table
+     * @return list of all {@link Journal} objects that contain in table.
      */
     public Journals selectAll()
     {
@@ -103,7 +103,7 @@ public class JournalConnector
 
 
     /**
-     * Delete table journal in data base.
+     * Delete table {@link Journal} in data base.
      */
     public void delete()
     {

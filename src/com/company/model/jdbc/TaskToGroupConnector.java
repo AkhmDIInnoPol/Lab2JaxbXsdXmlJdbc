@@ -31,7 +31,7 @@ public class TaskToGroupConnector
     }
 
     /**
-     * Get all tuple from taskToGroup table.
+     * Get all tuple from {@link TaskToGroup} table.
      * @return list of all taskToGroup objects that contain in table.
      */
     public TaskToGroups selectAll()
@@ -105,7 +105,7 @@ public class TaskToGroupConnector
 
 
     /**
-     * Delete table task_to_group in data base.
+     * Delete table {@link TaskToGroup} in data base.
      */
     public void delete()
     {

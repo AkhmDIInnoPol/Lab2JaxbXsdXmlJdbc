@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18dac121-20f3-48bc-a8f9-f40690ab9be3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/test/model/xml/JavaObjectXmlConverterTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/StudentActivities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/StudentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/model/xjc/StudentActivities.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/model/xjc/StudentActivity.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/LessonConnector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/StudentActivityConnector.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/test/model/xjc/someValue.xsd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/ObjectFactory.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/xjc/ObjectFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/test/model/xml/JavaObjectXmlConverterTest.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/test/model/xml/JavaObjectXmlConverterTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XSDtoJAXBscript.bat" afterPath="$PROJECT_DIR$/XSDtoJAXBscript.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/xjc/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/com/company/model/xjc/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/journal.xml" afterPath="$PROJECT_DIR$/xml/journal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/taskToGroup.xml" afterPath="$PROJECT_DIR$/xml/taskToGroup.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,23 +91,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaObjectXmlConverterTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml/JavaObjectXmlConverterTest.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaObjectXmlConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="390">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,15 +114,15 @@
                 <node x="994.6701612903223" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
                 <node x="289.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
                 <node x="1176.6701612903223" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
-                <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
-                <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
                 <node x="707.0833333333333" y="931.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
+                <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
+                <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
                 <node x="797.9201612903223" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
                 <node x="396.7516129032258" y="887.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
                 <node x="27.33333333333337" y="55.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
                 <node x="762.4201612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
-                <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
                 <node x="959.9201612903223" y="608.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
+                <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
                 <node x="928.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
                 <node x="64.0" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
                 <node x="0.0" y="1161.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
@@ -158,6 +158,12 @@
                   <point x="1292.4201612903223" y="862.0" />
                   <point x="-70.5" y="125.5" />
                 </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+                  <point x="60.5" y="-103.5" />
+                  <point x="1141.4201612903223" y="556.0" />
+                  <point x="1692.2951612903225" y="556.0" />
+                  <point x="-68.25" y="70.5" />
+                </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
                   <point x="-87.33333333333337" y="-114.5" />
                   <point x="440.41827956989243" y="862.0" />
@@ -172,23 +178,17 @@
                   <point x="1783.2951612903225" y="516.0" />
                   <point x="22.75" y="70.5" />
                 </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-                  <point x="60.5" y="-103.5" />
-                  <point x="1141.4201612903223" y="556.0" />
-                  <point x="1692.2951612903225" y="556.0" />
-                  <point x="-68.25" y="70.5" />
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+                  <point x="-57.75" y="-59.5" />
+                  <point x="347.0" y="566.0" />
+                  <point x="296.0" y="566.0" />
+                  <point x="65.5" y="114.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
                   <point x="35.49999999999977" y="-48.5" />
                   <point x="2076.404569892473" y="566.0" />
                   <point x="2052.208333333333" y="566.0" />
                   <point x="45.49999999999977" y="70.5" />
-                </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-                  <point x="-57.75" y="-59.5" />
-                  <point x="347.0" y="566.0" />
-                  <point x="296.0" y="566.0" />
-                  <point x="65.5" y="114.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="0.0" y="-114.5" />
@@ -218,15 +218,15 @@
                   <point x="1308.9201612903223" y="546.0" />
                   <point x="-54.0" y="59.5" />
                 </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+                  <point x="0.0" y="-81.5" />
+                  <point x="-65.5" y="114.5" />
+                </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="-35.5" y="-48.5" />
                   <point x="964.1701612903223" y="227.0" />
                   <point x="692.3868279569891" y="227.0" />
                   <point x="96.80000000000007" y="103.5" />
-                </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-                  <point x="0.0" y="-81.5" />
-                  <point x="-65.5" y="114.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="87.33333333333331" y="-114.5" />
@@ -262,15 +262,15 @@
                   <point x="1828.7951612903225" y="506.0" />
                   <point x="68.25" y="70.5" />
                 </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
+                  <point x="0.0" y="-81.5" />
+                  <point x="70.5" y="125.5" />
+                </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
                   <point x="-35.5" y="-48.5" />
                   <point x="1151.1701612903223" y="237.0" />
                   <point x="1116.1701612903223" y="237.0" />
                   <point x="40.5" y="59.5" />
-                </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
-                  <point x="0.0" y="-81.5" />
-                  <point x="70.5" y="125.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="-35.5" y="-48.5" />
@@ -288,17 +288,17 @@
                   <point x="652.25" y="862.0" />
                   <point x="0.0" y="59.5" />
                 </edge>
-                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-                  <point x="-60.5" y="-103.5" />
-                  <point x="1020.4201612903223" y="536.0" />
-                  <point x="861.8201612903224" y="536.0" />
-                  <point x="28.399999999999977" y="48.5" />
-                </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="-45.5" y="-70.5" />
                   <point x="752.5833333333333" y="566.0" />
                   <point x="805.0201612903224" y="566.0" />
                   <point x="-28.399999999999977" y="48.5" />
+                </edge>
+                <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+                  <point x="-60.5" y="-103.5" />
+                  <point x="1020.4201612903223" y="536.0" />
+                  <point x="861.8201612903224" y="536.0" />
+                  <point x="28.399999999999977" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
                   <point x="67.33333333333326" y="-81.5" />
@@ -313,14 +313,48 @@
                   <point x="-56.799999999999955" y="48.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.8" x="1366.0" y="619.0" />
+              <settings layout="Hierarchic Group" zoom="0.9" x="1196.6666666666667" y="825.6666666666667" />
               <SelectedNodes>
-                <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
+                <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
               </SelectedNodes>
               <Categories>
                 <Category>Columns</Category>
                 <Category>Key columns</Category>
               </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackUpCheckJournal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaObjectXmlConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JournalConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="121" column="0" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="121" selection-end-column="0" />
+              <folding>
+                <marker date="1492332985768" expanded="true" signature="1033:1061" ph="select * fro... journal" />
+                <marker date="1492332985768" expanded="true" signature="2162:2278" ph="INSERT INTO journal... " />
+                <marker date="1492332985768" expanded="true" signature="3273:3292" ph="DROP TABLE j... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -354,29 +388,33 @@
         <option value="$PROJECT_DIR$/xsd/journal.xsd" />
         <option value="$PROJECT_DIR$/xml/journal.xml" />
         <option value="$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql" />
         <option value="$PROJECT_DIR$/src/com/company/model/xjc/Journal.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/xjc/Mark.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/xjc/TaskToGroup.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpValidation.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpValidationJournal.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndDateSQLConverterTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndTimestampSQLConverterTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/xml/TestModel.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/xjc/generated/SomeModel.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/xjc/generated/SomeModels.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/xjc/generated/ObjectFactory.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/xml/JavaObjectXmlConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/StudentActivityConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/LessonConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java" />
       </list>
     </option>
   </component>
@@ -408,8 +446,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -486,10 +522,6 @@
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -509,86 +541,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="interactor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -632,7 +592,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaObjectXmlConverterTest.writeReadXMLTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -1100,10 +1060,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JavaObjectXmlConverterTest.writeReadXMLTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convGregXmlToDateSqlTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JavaObjectXmlConverterTest.writeReadXMLTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convGregXmlToDateSqlTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1127,13 +1087,11 @@
       <workItem from="1492257480011" duration="10052000" />
       <workItem from="1492270638975" duration="8475000" />
       <workItem from="1492318784918" duration="666000" />
+      <workItem from="1492340495198" duration="4010000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GregXMLAndDateSQLConverterTest_convGregXmlToDateSqlTest - 2017.04.15 at 23h 15m 52s.xml">
-      <configuration name="GregXMLAndDateSQLConverterTest.convGregXmlToDateSqlTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GregXMLAndDateSQLConverterTest_convGregXmlToDateSqlTest - 2017.04.15 at 23h 18m 06s.xml">
       <configuration name="GregXMLAndDateSQLConverterTest.convGregXmlToDateSqlTest" configurationId="JUnit" />
     </history-entry>
@@ -1152,6 +1110,9 @@
     <history-entry file="GregXMLAndTimestampSQLConverterTest_convDateSqlToGregXmlTest - 2017.04.16 at 10h 08m 45s.xml">
       <configuration name="GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JavaObjectXmlConverterTest_writeReadXMLTest - 2017.04.16 at 12h 14m 48s.xml">
+      <configuration name="JavaObjectXmlConverterTest.writeReadXMLTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="JavaObjectXmlConverterTest_writeToXMLTest - 2017.04.16 at 11h 25m 29s.xml">
       <configuration name="JavaObjectXmlConverterTest.writeToXMLTest" configurationId="JUnit" />
     </history-entry>
@@ -1163,10 +1124,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66991000" />
+    <option name="totallyTimeSpent" value="75433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
+    <frame x="-4" y="-4" width="1608" height="864" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1177,50 +1138,27 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409396" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20667523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17971759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2195122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409396" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17779204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1233,13 +1171,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java</url>
+          <line>80</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1248,71 +1186,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.criterion_to_task">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student_activity">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.lesson">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/journal/xjc/JournalType.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/journal/xjc/ObjectFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/journal/xjc/Journal.java" />
-    <entry file="file://$PROJECT_DIR$/XSDtoJAXBscript.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/logger/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="678" column="18" lean-forward="false" selection-start-line="678" selection-start-column="18" selection-end-line="678" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xsd/journal.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1349,20 +1227,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/StudentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/StudentActivities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/StudentActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/StudentActivities.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/TaskToGroups.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1409,13 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/TaskToGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1453,17 +1312,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Timestamp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="-82">
+          <caret line="109" column="11" lean-forward="false" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="1955" column="22" lean-forward="false" selection-start-line="1955" selection-start-column="22" selection-end-line="1955" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndTimestampSQLConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml/TestModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xjc/generated/SomeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xjc/generated/SomeModels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xjc/generated/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml/someModel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xsd/journal.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/Journal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1946">
+        <state relative-caret-position="1845">
           <caret line="177" column="18" lean-forward="false" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="108" column="31" lean-forward="false" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+          <folding>
+            <marker date="1492332985690" expanded="true" signature="1022:1047" ph="select * fro... mark" />
+            <marker date="1492332985690" expanded="true" signature="2091:2222" ph="INSERT INTO mark... " />
+            <marker date="1492332985690" expanded="true" signature="3174:3190" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1568">
+          <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+          <folding>
+            <marker date="1492332985734" expanded="true" signature="1088:1122" ph="select * fro... task_to_group" />
+            <marker date="1492332985734" expanded="true" signature="2275:2404" ph="INSERT INTO task_to_group... " />
+            <marker date="1492332985734" expanded="true" signature="3451:3476" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml/JavaObjectXmlConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/StudentActivityConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="125" column="56" lean-forward="false" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1492334476939" expanded="true" signature="1154:1191" ph="select * fro... student_activity" />
+            <marker date="1492334476939" expanded="true" signature="2466:2656" ph="INSERT INTO student_activity... " />
+            <marker date="1492334476939" expanded="true" signature="3835:3863" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/studentActivity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#2017#2018#0" expanded="false" />
+            <element signature="e#2066#2067#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/journal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.journal">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1480,6 +1486,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.task_to_group">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student_activity">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="121" column="0" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <marker date="1492332985768" expanded="true" signature="1033:1061" ph="select * fro... journal" />
+            <marker date="1492332985768" expanded="true" signature="2162:2278" ph="INSERT INTO journal... " />
+            <marker date="1492332985768" expanded="true" signature="3273:3292" ph="DROP TABLE j... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/lesson.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/LessonConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1492342701713" expanded="true" signature="1089:1116" ph="select * fro... lesson" />
+            <marker date="1492342701713" expanded="true" signature="2649:2876" ph="INSERT INTO journal... " />
+            <marker date="1492342701713" expanded="true" signature="4388:4400" ph="DELETE FROM " />
+            <marker date="1492342701713" expanded="true" signature="4388:4406" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.lesson">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1492,15 +1613,15 @@
             <node x="994.6701612903223" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
             <node x="289.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
             <node x="1176.6701612903223" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
-            <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
-            <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
             <node x="707.0833333333333" y="931.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
+            <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
+            <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
             <node x="797.9201612903223" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
             <node x="396.7516129032258" y="887.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
             <node x="27.33333333333337" y="55.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
             <node x="762.4201612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
-            <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
             <node x="959.9201612903223" y="608.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
+            <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
             <node x="928.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
             <node x="64.0" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
             <node x="0.0" y="1161.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
@@ -1536,6 +1657,12 @@
               <point x="1292.4201612903223" y="862.0" />
               <point x="-70.5" y="125.5" />
             </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="60.5" y="-103.5" />
+              <point x="1141.4201612903223" y="556.0" />
+              <point x="1692.2951612903225" y="556.0" />
+              <point x="-68.25" y="70.5" />
+            </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
               <point x="-87.33333333333337" y="-114.5" />
               <point x="440.41827956989243" y="862.0" />
@@ -1550,23 +1677,17 @@
               <point x="1783.2951612903225" y="516.0" />
               <point x="22.75" y="70.5" />
             </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="60.5" y="-103.5" />
-              <point x="1141.4201612903223" y="556.0" />
-              <point x="1692.2951612903225" y="556.0" />
-              <point x="-68.25" y="70.5" />
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+              <point x="-57.75" y="-59.5" />
+              <point x="347.0" y="566.0" />
+              <point x="296.0" y="566.0" />
+              <point x="65.5" y="114.5" />
             </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
               <point x="35.49999999999977" y="-48.5" />
               <point x="2076.404569892473" y="566.0" />
               <point x="2052.208333333333" y="566.0" />
               <point x="45.49999999999977" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-              <point x="-57.75" y="-59.5" />
-              <point x="347.0" y="566.0" />
-              <point x="296.0" y="566.0" />
-              <point x="65.5" y="114.5" />
             </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
               <point x="0.0" y="-114.5" />
@@ -1596,15 +1717,15 @@
               <point x="1308.9201612903223" y="546.0" />
               <point x="-54.0" y="59.5" />
             </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+              <point x="0.0" y="-81.5" />
+              <point x="-65.5" y="114.5" />
+            </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
               <point x="-35.5" y="-48.5" />
               <point x="964.1701612903223" y="227.0" />
               <point x="692.3868279569891" y="227.0" />
               <point x="96.80000000000007" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-              <point x="0.0" y="-81.5" />
-              <point x="-65.5" y="114.5" />
             </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
               <point x="87.33333333333331" y="-114.5" />
@@ -1640,15 +1761,15 @@
               <point x="1828.7951612903225" y="506.0" />
               <point x="68.25" y="70.5" />
             </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
+              <point x="0.0" y="-81.5" />
+              <point x="70.5" y="125.5" />
+            </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
               <point x="-35.5" y="-48.5" />
               <point x="1151.1701612903223" y="237.0" />
               <point x="1116.1701612903223" y="237.0" />
               <point x="40.5" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
-              <point x="0.0" y="-81.5" />
-              <point x="70.5" y="125.5" />
             </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
               <point x="-35.5" y="-48.5" />
@@ -1666,17 +1787,17 @@
               <point x="652.25" y="862.0" />
               <point x="0.0" y="59.5" />
             </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="-60.5" y="-103.5" />
-              <point x="1020.4201612903223" y="536.0" />
-              <point x="861.8201612903224" y="536.0" />
-              <point x="28.399999999999977" y="48.5" />
-            </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
               <point x="-45.5" y="-70.5" />
               <point x="752.5833333333333" y="566.0" />
               <point x="805.0201612903224" y="566.0" />
               <point x="-28.399999999999977" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-60.5" y="-103.5" />
+              <point x="1020.4201612903223" y="536.0" />
+              <point x="861.8201612903224" y="536.0" />
+              <point x="28.399999999999977" y="48.5" />
             </edge>
             <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
               <point x="67.33333333333326" y="-81.5" />
@@ -1691,9 +1812,9 @@
               <point x="-56.799999999999955" y="48.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8" x="1366.0" y="619.0" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="1196.6666666666667" y="825.6666666666667" />
           <SelectedNodes>
-            <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
+            <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
           </SelectedNodes>
           <Categories>
             <Category>Columns</Category>
@@ -1702,187 +1823,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/journal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="93" column="30" lean-forward="false" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
-          <folding>
-            <marker date="1492326365219" expanded="true" signature="1080:1114" ph="select * fro... task_to_group" />
-            <marker date="1492326365219" expanded="true" signature="2267:2396" ph="INSERT INTO task_to_group... " />
-            <marker date="1492326365219" expanded="true" signature="3437:3462" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.journal">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.task_to_group">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Timestamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="109" column="11" lean-forward="false" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="1955" column="22" lean-forward="false" selection-start-line="1955" selection-start-column="22" selection-end-line="1955" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="110" column="11" lean-forward="false" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
-          <folding>
-            <marker date="1492322873992" expanded="true" signature="1014:1039" ph="select * fro... mark" />
-            <marker date="1492322873992" expanded="true" signature="2083:2214" ph="INSERT INTO mark... " />
-            <marker date="1492322873992" expanded="true" signature="3158:3174" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="90" column="47" lean-forward="false" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
-          <folding>
-            <marker date="1492326365329" expanded="true" signature="1017:1045" ph="select * fro... journal" />
-            <marker date="1492326365329" expanded="true" signature="2146:2262" ph="INSERT INTO journal... " />
-            <marker date="1492326365329" expanded="true" signature="3249:3268" ph="DROP TABLE j... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="390">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="47" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndTimestampSQLConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml/TestModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xjc/generated/SomeModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xjc/generated/SomeModels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xjc/generated/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/xml/JavaObjectXmlConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml/someModel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/xml/JavaObjectXmlConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

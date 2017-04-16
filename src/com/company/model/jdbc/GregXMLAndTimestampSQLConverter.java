@@ -10,7 +10,7 @@ import java.sql.Timestamp;
 import java.util.GregorianCalendar;
 
 /**
- * Created by Di on 15.04.2017.
+ * Converter between {@link XMLGregorianCalendar} and {@link Timestamp}.
  */
 public class GregXMLAndTimestampSQLConverter
 {
