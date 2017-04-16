@@ -63,12 +63,12 @@ public class BackUpCheckJournal extends Thread
 
 
         connectionDB.closeConnection();
-
-
     }
 
 
-
+    /**
+     * Start other thread and wait until it ended. Wait until other thread table deleted.
+     */
     public void startAndJoinOtherThread()
     {
         BackUpCheckStudentActivity backUpCheckStudentActivityThread = new BackUpCheckStudentActivity();

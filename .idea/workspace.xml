@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18dac121-20f3-48bc-a8f9-f40690ab9be3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/test/model/jdbc/JournalConnectorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckJournal.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckJournal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckLesson.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckLesson.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckMark.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckMark.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckStudentActivity.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckStudentActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckTaskToGroup.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/interactor/BackUpCheckTaskToGroup.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java" afterPath="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/journal.xml" afterPath="$PROJECT_DIR$/xml/journal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/lesson.xml" afterPath="$PROJECT_DIR$/xml/lesson.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/studentActivity.xml" afterPath="$PROJECT_DIR$/xml/studentActivity.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,62 +85,47 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SRMStudyCenter.public.task_to_group" pinned="false" current-in-tab="true">
-        <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.task_to_group">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public" pinned="false" current-in-tab="true">
         <entry file="uml://DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>DATABASE</ID>
               <OriginalElement>365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public</OriginalElement>
               <nodes>
-                <node x="99.5" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
-                <node x="1507.5451612903225" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
-                <node x="381.5" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
-                <node x="994.6701612903223" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
-                <node x="289.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
-                <node x="1176.6701612903223" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
-                <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
-                <node x="707.0833333333333" y="931.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
-                <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
-                <node x="797.9201612903223" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
-                <node x="396.7516129032258" y="887.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
-                <node x="27.33333333333337" y="55.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
-                <node x="762.4201612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
-                <node x="959.9201612903223" y="608.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
-                <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
-                <node x="928.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
-                <node x="64.0" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
-                <node x="0.0" y="1161.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
-                <node x="474.58682795698905" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
-                <node x="1915.708333333333" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
-                <node x="1115.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
-                <node x="1747.9045698924729" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
-                <node x="1533.0451612903225" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
-                <node x="1969.9045698924729" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
-                <node x="1540.7951612903225" y="641.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
-                <node x="571.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
-                <node x="1669.5451612903225" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
+                <node x="35.5" y="799.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
+                <node x="1722.1987373737375" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
+                <node x="1440.3775252525252" y="854.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
+                <node x="880.6275252525253" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
+                <node x="1348.1275252525252" y="1100.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
+                <node x="1062.6275252525252" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
+                <node x="1218.3775252525252" y="832.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
+                <node x="599.5" y="843.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
+                <node x="1167.8775252525252" y="268.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
+                <node x="683.8775252525253" y="575.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
+                <node x="317.5" y="799.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
+                <node x="251.27575757575755" y="575.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
+                <node x="648.3775252525253" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
+                <node x="845.8775252525253" y="520.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
+                <node x="1107.8775252525252" y="498.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
+                <node x="814.6275252525253" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
+                <node x="0.0" y="1078.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
+                <node x="0.0" y="1286.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
+                <node x="333.1275252525253" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
+                <node x="1928.859090909091" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
+                <node x="1001.6275252525253" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
+                <node x="1665.5858585858587" y="542.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
+                <node x="1747.6987373737375" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
+                <node x="1967.2108585858587" y="575.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
+                <node x="1409.8775252525252" y="553.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
+                <node x="455.0320707070707" y="564.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
+                <node x="1520.1987373737375" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
               </nodes>
               <notes />
               <edges>
@@ -158,9 +135,9 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="-67.33333333333326" y="-81.5" />
-                  <point x="1781.5712365591394" y="526.0" />
-                  <point x="890.2201612903223" y="526.0" />
-                  <point x="56.799999999999955" y="48.5" />
+                  <point x="1699.2525252525254" y="438.0" />
+                  <point x="776.1775252525254" y="438.0" />
+                  <point x="56.80000000000007" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
                   <point x="35.5" y="-48.5" />
@@ -168,48 +145,46 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
                   <point x="45.5" y="-70.5" />
-                  <point x="843.5833333333333" y="862.0" />
-                  <point x="1292.4201612903223" y="862.0" />
+                  <point x="736.0" y="774.0" />
+                  <point x="1178.3775252525252" y="774.0" />
                   <point x="-70.5" y="125.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
                   <point x="0.0" y="-81.5" />
-                  <point x="1848.9045698924729" y="516.0" />
-                  <point x="1783.2951612903225" y="516.0" />
+                  <point x="1766.5858585858587" y="428.0" />
+                  <point x="1633.9487373737375" y="428.0" />
                   <point x="22.75" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-                  <point x="60.5" y="-103.5" />
-                  <point x="1141.4201612903223" y="556.0" />
-                  <point x="1692.2951612903225" y="556.0" />
+                  <point x="60.499999999999886" y="-103.5" />
+                  <point x="1027.3775252525252" y="468.0" />
+                  <point x="1542.9487373737375" y="468.0" />
                   <point x="-68.25" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-                  <point x="-87.33333333333337" y="-114.5" />
-                  <point x="440.41827956989243" y="862.0" />
-                  <point x="53.5" y="862.0" />
-                  <point x="53.5" y="237.0" />
-                  <point x="62.83333333333337" y="237.0" />
-                  <point x="-35.5" y="48.5" />
+                  <point x="-87.33333333333331" y="-114.5" />
+                  <point x="361.16666666666674" y="774.0" />
+                  <point x="357.77575757575755" y="774.0" />
+                  <point x="35.5" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
-                  <point x="35.49999999999977" y="-48.5" />
-                  <point x="2076.404569892473" y="566.0" />
-                  <point x="2052.208333333333" y="566.0" />
+                  <point x="35.5" y="-48.5" />
+                  <point x="2073.7108585858587" y="478.0" />
+                  <point x="2065.359090909091" y="478.0" />
                   <point x="45.49999999999977" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
                   <point x="-57.75" y="-59.5" />
-                  <point x="347.0" y="566.0" />
-                  <point x="296.0" y="566.0" />
+                  <point x="1405.8775252525252" y="1053.0" />
+                  <point x="232.0" y="1053.0" />
                   <point x="65.5" y="114.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="0.0" y="-114.5" />
-                  <point x="527.7516129032258" y="862.0" />
-                  <point x="554.0" y="862.0" />
-                  <point x="554.0" y="237.0" />
-                  <point x="595.586827956989" y="237.0" />
+                  <point x="448.5" y="774.0" />
+                  <point x="443.67297979797974" y="774.0" />
+                  <point x="443.67297979797974" y="237.0" />
+                  <point x="454.1275252525253" y="237.0" />
                   <point x="0.0" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
@@ -218,9 +193,9 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="0.0" y="-48.5" />
-                  <point x="833.4201612903223" y="237.0" />
-                  <point x="643.9868279569891" y="237.0" />
-                  <point x="48.40000000000009" y="103.5" />
+                  <point x="719.3775252525253" y="237.0" />
+                  <point x="502.5275252525253" y="237.0" />
+                  <point x="48.400000000000034" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire">
                   <point x="57.75" y="-59.5" />
@@ -228,8 +203,8 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
                   <point x="35.5" y="-48.5" />
-                  <point x="904.4201612903223" y="546.0" />
-                  <point x="1308.9201612903223" y="546.0" />
+                  <point x="790.3775252525253" y="458.0" />
+                  <point x="1194.8775252525252" y="458.0" />
                   <point x="-54.0" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
@@ -238,26 +213,28 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
                   <point x="-35.5" y="-48.5" />
-                  <point x="964.1701612903223" y="227.0" />
-                  <point x="692.3868279569891" y="227.0" />
+                  <point x="850.1275252525253" y="227.0" />
+                  <point x="550.9275252525254" y="227.0" />
                   <point x="96.80000000000007" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-                  <point x="87.33333333333331" y="-114.5" />
-                  <point x="317.83333333333337" y="237.0" />
-                  <point x="547.1868279569891" y="237.0" />
-                  <point x="-48.39999999999998" y="103.5" />
+                  <point x="-87.33333333333326" y="-114.5" />
+                  <point x="79.16666666666674" y="774.0" />
+                  <point x="137.07121212121206" y="774.0" />
+                  <point x="137.07121212121206" y="227.0" />
+                  <point x="357.3275252525252" y="227.0" />
+                  <point x="-96.80000000000007" y="103.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
                   <point x="-45.5" y="-70.5" />
-                  <point x="1586.2951612903225" y="546.0" />
-                  <point x="1416.9201612903223" y="546.0" />
+                  <point x="1455.3775252525252" y="458.0" />
+                  <point x="1302.8775252525252" y="458.0" />
                   <point x="54.0" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
                   <point x="-35.5" y="-48.5" />
-                  <point x="1543.0451612903225" y="237.0" />
-                  <point x="1313.1701612903223" y="237.0" />
+                  <point x="1757.6987373737375" y="237.0" />
+                  <point x="1199.1275252525252" y="237.0" />
                   <point x="45.5" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
@@ -266,14 +243,14 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
                   <point x="45.5" y="-70.5" />
-                  <point x="1677.2951612903225" y="566.0" />
-                  <point x="1737.7951612903225" y="566.0" />
+                  <point x="1546.3775252525252" y="478.0" />
+                  <point x="1588.4487373737375" y="478.0" />
                   <point x="-22.75" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-                  <point x="-35.50000000000023" y="-48.5" />
-                  <point x="2005.4045698924729" y="506.0" />
-                  <point x="1828.7951612903225" y="506.0" />
+                  <point x="-35.5" y="-48.5" />
+                  <point x="2002.7108585858587" y="418.0" />
+                  <point x="1679.4487373737375" y="418.0" />
                   <point x="68.25" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
@@ -282,15 +259,15 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
                   <point x="-35.5" y="-48.5" />
-                  <point x="1151.1701612903223" y="237.0" />
-                  <point x="1116.1701612903223" y="237.0" />
+                  <point x="1037.1275252525252" y="237.0" />
+                  <point x="1002.1275252525253" y="237.0" />
                   <point x="40.5" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-                  <point x="-87.33333333333331" y="-114.5" />
-                  <point x="143.16666666666663" y="237.0" />
-                  <point x="133.83333333333337" y="237.0" />
-                  <point x="35.5" y="48.5" />
+                  <point x="87.33333333333331" y="-114.5" />
+                  <point x="253.83333333333326" y="774.0" />
+                  <point x="286.77575757575755" y="774.0" />
+                  <point x="-35.5" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="-35.5" y="-48.5" />
@@ -298,73 +275,41 @@
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance">
                   <point x="87.33333333333337" y="-114.5" />
-                  <point x="615.0849462365592" y="862.0" />
-                  <point x="652.25" y="862.0" />
                   <point x="0.0" y="59.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="-45.5" y="-70.5" />
-                  <point x="752.5833333333333" y="566.0" />
-                  <point x="805.0201612903224" y="566.0" />
+                  <point x="645.0" y="478.0" />
+                  <point x="690.9775252525253" y="478.0" />
                   <point x="-28.399999999999977" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-                  <point x="-60.5" y="-103.5" />
-                  <point x="1020.4201612903223" y="536.0" />
-                  <point x="861.8201612903224" y="536.0" />
+                  <point x="-60.500000000000114" y="-103.5" />
+                  <point x="906.3775252525252" y="448.0" />
+                  <point x="747.7775252525253" y="448.0" />
                   <point x="28.399999999999977" y="48.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
                   <point x="67.33333333333326" y="-81.5" />
-                  <point x="1916.237903225806" y="566.0" />
-                  <point x="1961.208333333333" y="566.0" />
+                  <point x="1833.919191919192" y="478.0" />
+                  <point x="1974.359090909091" y="478.0" />
                   <point x="-45.5" y="70.5" />
                 </edge>
                 <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
                   <point x="0.0" y="-59.5" />
-                  <point x="652.25" y="556.0" />
-                  <point x="776.6201612903224" y="556.0" />
+                  <point x="536.0320707070707" y="468.0" />
+                  <point x="662.5775252525253" y="468.0" />
                   <point x="-56.799999999999955" y="48.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.9" x="859.0" y="986.0" />
+              <settings layout="Hierarchic Group" zoom="0.7136842105263157" x="801.5486725663718" y="723.1637168141593" />
               <SelectedNodes>
                 <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
               </SelectedNodes>
               <Categories>
-                <Category>Columns</Category>
                 <Category>Key columns</Category>
+                <Category>Columns</Category>
               </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackUpCheckJournal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackUpCheckStudentActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -420,13 +365,13 @@
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/LessonConnector.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/model/jdbc/JournalConnectorTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheck.java" />
-        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java" />
-        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java" />
+        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java" />
       </list>
     </option>
   </component>
@@ -558,28 +503,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_jaxb_140417" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interactor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1127,7 +1050,7 @@
       <workItem from="1492318784918" duration="666000" />
       <workItem from="1492340495198" duration="4076000" />
       <workItem from="1492348709504" duration="7521000" />
-      <workItem from="1492357818808" duration="2433000" />
+      <workItem from="1492357818808" duration="5540000" />
     </task>
     <servers />
   </component>
@@ -1164,7 +1087,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85453000" />
+    <option name="totallyTimeSpent" value="88560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="0" />
@@ -1178,14 +1101,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409396" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18356867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18356867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2195122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1226,18 +1149,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/ObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -1321,6 +1232,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-82">
           <caret line="109" column="11" lean-forward="false" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,6 +1240,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="1955" column="22" lean-forward="false" selection-start-line="1955" selection-start-column="22" selection-end-line="1955" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,6 +1292,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="108" column="31" lean-forward="false" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+          <folding>
+            <marker date="1492332985690" expanded="true" signature="1022:1047" ph="select * fro... mark" />
+            <marker date="1492332985690" expanded="true" signature="2091:2222" ph="INSERT INTO mark... " />
+            <marker date="1492332985690" expanded="true" signature="3174:3190" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1386,6 +1304,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1568">
           <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+          <folding>
+            <marker date="1492332985734" expanded="true" signature="1088:1122" ph="select * fro... task_to_group" />
+            <marker date="1492332985734" expanded="true" signature="2275:2404" ph="INSERT INTO task_to_group... " />
+            <marker date="1492332985734" expanded="true" signature="3451:3476" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1444,6 +1367,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,6 +1375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,6 +1390,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <marker date="1492332985768" expanded="true" signature="1033:1061" ph="select * fro... journal" />
+            <marker date="1492332985768" expanded="true" signature="2162:2278" ph="INSERT INTO journal... " />
+            <marker date="1492332985768" expanded="true" signature="3273:3292" ph="DROP TABLE j... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1476,45 +1406,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheck.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="9" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding />
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.mark">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1531,237 +1440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public</OriginalElement>
-          <nodes>
-            <node x="99.5" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
-            <node x="1507.5451612903225" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
-            <node x="381.5" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
-            <node x="994.6701612903223" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
-            <node x="289.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
-            <node x="1176.6701612903223" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
-            <node x="1332.4201612903223" y="920.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
-            <node x="707.0833333333333" y="931.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
-            <node x="1281.9201612903223" y="312.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
-            <node x="797.9201612903223" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
-            <node x="396.7516129032258" y="887.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
-            <node x="27.33333333333337" y="55.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
-            <node x="762.4201612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
-            <node x="959.9201612903223" y="608.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
-            <node x="1221.9201612903223" y="586.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
-            <node x="928.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
-            <node x="64.0" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
-            <node x="0.0" y="1161.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
-            <node x="474.58682795698905" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
-            <node x="1915.708333333333" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
-            <node x="1115.6701612903223" y="323.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
-            <node x="1747.9045698924729" y="630.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
-            <node x="1533.0451612903225" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
-            <node x="1969.9045698924729" y="663.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
-            <node x="1540.7951612903225" y="641.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
-            <node x="571.25" y="652.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
-            <node x="1669.5451612903225" y="301.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation">
-              <point x="35.5" y="-48.5" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="-67.33333333333326" y="-81.5" />
-              <point x="1781.5712365591394" y="526.0" />
-              <point x="890.2201612903223" y="526.0" />
-              <point x="56.799999999999955" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
-              <point x="35.5" y="-48.5" />
-              <point x="-40.5" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
-              <point x="45.5" y="-70.5" />
-              <point x="843.5833333333333" y="862.0" />
-              <point x="1292.4201612903223" y="862.0" />
-              <point x="-70.5" y="125.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="0.0" y="-81.5" />
-              <point x="1848.9045698924729" y="516.0" />
-              <point x="1783.2951612903225" y="516.0" />
-              <point x="22.75" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="60.5" y="-103.5" />
-              <point x="1141.4201612903223" y="556.0" />
-              <point x="1692.2951612903225" y="556.0" />
-              <point x="-68.25" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-              <point x="-87.33333333333337" y="-114.5" />
-              <point x="440.41827956989243" y="862.0" />
-              <point x="53.5" y="862.0" />
-              <point x="53.5" y="237.0" />
-              <point x="62.83333333333337" y="237.0" />
-              <point x="-35.5" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
-              <point x="35.49999999999977" y="-48.5" />
-              <point x="2076.404569892473" y="566.0" />
-              <point x="2052.208333333333" y="566.0" />
-              <point x="45.49999999999977" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-              <point x="-57.75" y="-59.5" />
-              <point x="347.0" y="566.0" />
-              <point x="296.0" y="566.0" />
-              <point x="65.5" y="114.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="0.0" y="-114.5" />
-              <point x="527.7516129032258" y="862.0" />
-              <point x="554.0" y="862.0" />
-              <point x="554.0" y="237.0" />
-              <point x="595.586827956989" y="237.0" />
-              <point x="0.0" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
-              <point x="0.0" y="-125.5" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="0.0" y="-48.5" />
-              <point x="833.4201612903223" y="237.0" />
-              <point x="643.9868279569891" y="237.0" />
-              <point x="48.40000000000009" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire">
-              <point x="57.75" y="-59.5" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
-              <point x="35.5" y="-48.5" />
-              <point x="904.4201612903223" y="546.0" />
-              <point x="1308.9201612903223" y="546.0" />
-              <point x="-54.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
-              <point x="0.0" y="-81.5" />
-              <point x="-65.5" y="114.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="-35.5" y="-48.5" />
-              <point x="964.1701612903223" y="227.0" />
-              <point x="692.3868279569891" y="227.0" />
-              <point x="96.80000000000007" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
-              <point x="87.33333333333331" y="-114.5" />
-              <point x="317.83333333333337" y="237.0" />
-              <point x="547.1868279569891" y="237.0" />
-              <point x="-48.39999999999998" y="103.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
-              <point x="-45.5" y="-70.5" />
-              <point x="1586.2951612903225" y="546.0" />
-              <point x="1416.9201612903223" y="546.0" />
-              <point x="54.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
-              <point x="-35.5" y="-48.5" />
-              <point x="1543.0451612903225" y="237.0" />
-              <point x="1313.1701612903223" y="237.0" />
-              <point x="45.5" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
-              <point x="35.5" y="-48.5" />
-              <point x="-45.5" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="45.5" y="-70.5" />
-              <point x="1677.2951612903225" y="566.0" />
-              <point x="1737.7951612903225" y="566.0" />
-              <point x="-22.75" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
-              <point x="-35.50000000000023" y="-48.5" />
-              <point x="2005.4045698924729" y="506.0" />
-              <point x="1828.7951612903225" y="506.0" />
-              <point x="68.25" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
-              <point x="0.0" y="-81.5" />
-              <point x="70.5" y="125.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
-              <point x="-35.5" y="-48.5" />
-              <point x="1151.1701612903223" y="237.0" />
-              <point x="1116.1701612903223" y="237.0" />
-              <point x="40.5" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
-              <point x="-87.33333333333331" y="-114.5" />
-              <point x="143.16666666666663" y="237.0" />
-              <point x="133.83333333333337" y="237.0" />
-              <point x="35.5" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="-35.5" y="-48.5" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance">
-              <point x="87.33333333333337" y="-114.5" />
-              <point x="615.0849462365592" y="862.0" />
-              <point x="652.25" y="862.0" />
-              <point x="0.0" y="59.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="-45.5" y="-70.5" />
-              <point x="752.5833333333333" y="566.0" />
-              <point x="805.0201612903224" y="566.0" />
-              <point x="-28.399999999999977" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="-60.5" y="-103.5" />
-              <point x="1020.4201612903223" y="536.0" />
-              <point x="861.8201612903224" y="536.0" />
-              <point x="28.399999999999977" y="48.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
-              <point x="67.33333333333326" y="-81.5" />
-              <point x="1916.237903225806" y="566.0" />
-              <point x="1961.208333333333" y="566.0" />
-              <point x="-45.5" y="70.5" />
-            </edge>
-            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
-              <point x="0.0" y="-59.5" />
-              <point x="652.25" y="556.0" />
-              <point x="776.6201612903224" y="556.0" />
-              <point x="-56.799999999999955" y="48.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9" x="859.0" y="986.0" />
-          <SelectedNodes>
-            <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student_activity">
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student_to_group">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1774,7 +1453,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckStudentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="64" column="39" lean-forward="false" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.lesson">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.task_to_group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.student_activity">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1800,37 +1547,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.mark">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.task_to_group">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="uml://DATABASE/365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <ID>DATABASE</ID>
+          <OriginalElement>365256cd-05e7-42b4-bd5b-bcccbeccd172.SCHEMA:SRMStudyCenter.public</OriginalElement>
+          <nodes>
+            <node x="35.5" y="799.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion</node>
+            <node x="1722.1987373737375" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource</node>
+            <node x="1440.3775252525252" y="854.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire</node>
+            <node x="880.6275252525253" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role</node>
+            <node x="1348.1275252525252" y="1100.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire</node>
+            <node x="1062.6275252525252" y="33.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource</node>
+            <node x="1218.3775252525252" y="832.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity</node>
+            <node x="599.5" y="843.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal</node>
+            <node x="1167.8775252525252" y="268.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group</node>
+            <node x="683.8775252525253" y="575.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group</node>
+            <node x="317.5" y="799.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance</node>
+            <node x="251.27575757575755" y="575.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type</node>
+            <node x="648.3775252525253" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student</node>
+            <node x="845.8775252525253" y="520.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download</node>
+            <node x="1107.8775252525252" y="498.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson</node>
+            <node x="814.6275252525253" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role</node>
+            <node x="0.0" y="1078.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript</node>
+            <node x="0.0" y="1286.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.settings</node>
+            <node x="333.1275252525253" y="0.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user</node>
+            <node x="1928.859090909091" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion</node>
+            <node x="1001.6275252525253" y="279.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource</node>
+            <node x="1665.5858585858587" y="542.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark</node>
+            <node x="1747.6987373737375" y="44.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation</node>
+            <node x="1967.2108585858587" y="575.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task</node>
+            <node x="1409.8775252525252" y="553.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group</node>
+            <node x="455.0320707070707" y="564.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance</node>
+            <node x="1520.1987373737375" y="257.0">365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation">
+              <point x="35.5" y="-48.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-67.33333333333326" y="-81.5" />
+              <point x="1699.2525252525254" y="438.0" />
+              <point x="776.1775252525254" y="438.0" />
+              <point x="56.80000000000007" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
+              <point x="35.5" y="-48.5" />
+              <point x="-40.5" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
+              <point x="45.5" y="-70.5" />
+              <point x="736.0" y="774.0" />
+              <point x="1178.3775252525252" y="774.0" />
+              <point x="-70.5" y="125.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="0.0" y="-81.5" />
+              <point x="1766.5858585858587" y="428.0" />
+              <point x="1633.9487373737375" y="428.0" />
+              <point x="22.75" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="60.499999999999886" y="-103.5" />
+              <point x="1027.3775252525252" y="468.0" />
+              <point x="1542.9487373737375" y="468.0" />
+              <point x="-68.25" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
+              <point x="-87.33333333333331" y="-114.5" />
+              <point x="361.16666666666674" y="774.0" />
+              <point x="357.77575757575755" y="774.0" />
+              <point x="35.5" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
+              <point x="35.5" y="-48.5" />
+              <point x="2073.7108585858587" y="478.0" />
+              <point x="2065.359090909091" y="478.0" />
+              <point x="45.49999999999977" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+              <point x="-57.75" y="-59.5" />
+              <point x="1405.8775252525252" y="1053.0" />
+              <point x="232.0" y="1053.0" />
+              <point x="65.5" y="114.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="0.0" y="-114.5" />
+              <point x="448.5" y="774.0" />
+              <point x="443.67297979797974" y="774.0" />
+              <point x="443.67297979797974" y="237.0" />
+              <point x="454.1275252525253" y="237.0" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
+              <point x="0.0" y="-125.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="0.0" y="-48.5" />
+              <point x="719.3775252525253" y="237.0" />
+              <point x="502.5275252525253" y="237.0" />
+              <point x="48.400000000000034" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_to_questionnaire" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire">
+              <point x="57.75" y="-59.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
+              <point x="35.5" y="-48.5" />
+              <point x="790.3775252525253" y="458.0" />
+              <point x="1194.8775252525252" y="458.0" />
+              <point x="-54.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.transcript" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion">
+              <point x="0.0" y="-81.5" />
+              <point x="-65.5" y="114.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.user_role" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="-35.5" y="-48.5" />
+              <point x="850.1275252525253" y="227.0" />
+              <point x="550.9275252525254" y="227.0" />
+              <point x="96.80000000000007" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.crm_user">
+              <point x="-87.33333333333326" y="-114.5" />
+              <point x="79.16666666666674" y="774.0" />
+              <point x="137.07121212121206" y="774.0" />
+              <point x="137.07121212121206" y="227.0" />
+              <point x="357.3275252525252" y="227.0" />
+              <point x="-96.80000000000007" y="103.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.study_group">
+              <point x="-45.5" y="-70.5" />
+              <point x="1455.3775252525252" y="458.0" />
+              <point x="1302.8775252525252" y="458.0" />
+              <point x="54.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.operation_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
+              <point x="-35.5" y="-48.5" />
+              <point x="1757.6987373737375" y="237.0" />
+              <point x="1199.1275252525252" y="237.0" />
+              <point x="45.5" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.resource">
+              <point x="35.5" y="-48.5" />
+              <point x="-45.5" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="45.5" y="-70.5" />
+              <point x="1546.3775252525252" y="478.0" />
+              <point x="1588.4487373737375" y="478.0" />
+              <point x="-22.75" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_to_task" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task">
+              <point x="-35.5" y="-48.5" />
+              <point x="2002.7108585858587" y="418.0" />
+              <point x="1679.4487373737375" y="418.0" />
+              <point x="68.25" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_activity" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.lesson">
+              <point x="0.0" y="-81.5" />
+              <point x="70.5" y="125.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role_resource" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.role">
+              <point x="-35.5" y="-48.5" />
+              <point x="1037.1275252525252" y="237.0" />
+              <point x="1002.1275252525253" y="237.0" />
+              <point x="40.5" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion_type">
+              <point x="87.33333333333331" y="-114.5" />
+              <point x="253.83333333333326" y="774.0" />
+              <point x="286.77575757575755" y="774.0" />
+              <point x="-35.5" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student_to_group" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-35.5" y="-48.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_criterion_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance">
+              <point x="87.33333333333337" y="-114.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.journal" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-45.5" y="-70.5" />
+              <point x="645.0" y="478.0" />
+              <point x="690.9775252525253" y="478.0" />
+              <point x="-28.399999999999977" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.download" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="-60.500000000000114" y="-103.5" />
+              <point x="906.3775252525252" y="448.0" />
+              <point x="747.7775252525253" y="448.0" />
+              <point x="28.399999999999977" y="48.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.mark" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.criterion">
+              <point x="67.33333333333326" y="-81.5" />
+              <point x="1833.919191919192" y="478.0" />
+              <point x="1974.359090909091" y="478.0" />
+              <point x="-45.5" y="70.5" />
+            </edge>
+            <edge source="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.questionnaire_instance" target="365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.student">
+              <point x="0.0" y="-59.5" />
+              <point x="536.0320707070707" y="468.0" />
+              <point x="662.5775252525253" y="468.0" />
+              <point x="-56.799999999999955" y="48.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7136842105263157" x="801.5486725663718" y="723.1637168141593" />
+          <SelectedNodes>
+            <node>365256cd-05e7-42b4-bd5b-bcccbeccd172.TABLE:SRMStudyCenter.public.task</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

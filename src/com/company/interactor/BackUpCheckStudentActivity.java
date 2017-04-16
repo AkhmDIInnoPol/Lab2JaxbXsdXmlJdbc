@@ -60,13 +60,13 @@ public class BackUpCheckStudentActivity extends Thread
 
 
         connectionDB.closeConnection();
-
-
-
     }
 
 
-
+    /**
+     * Start other thread and wait until it ended.
+     * Wait until parent table thread ended their work.
+     */
     public void startAndJoinOtherThread()
     {
         BackUpCheckLesson backUpCheckLessonThread = new BackUpCheckLesson();

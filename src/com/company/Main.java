@@ -31,11 +31,6 @@ public class Main {
         BackUpCheckTaskToGroup backUpCheckTaskToGroupThread = new BackUpCheckTaskToGroup();
         backUpCheckTaskToGroupThread.start();
 
-
-
-//        BackUpCheckLesson backUpCheckLessonThread = new BackUpCheckLesson();
-//        backUpCheckLessonThread.start();
-
     }
 
 
