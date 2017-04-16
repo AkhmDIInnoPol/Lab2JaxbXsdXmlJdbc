@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18dac121-20f3-48bc-a8f9-f40690ab9be3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndDateSQLConverterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/365256cd-05e7-42b4-bd5b-bcccbeccd172/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/GregXMLAndDateSQLConverter.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/GregXMLAndDateSQLConverter.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/GregXMLAndDateSQLConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/test/model/jdbc/GregXMLAndDateSQLConverterTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/JournalConnector.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/JournalConnector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/TaskToGroupConnector.class" afterPath="$PROJECT_DIR$/out/production/Lab2_jaxb_140417/com/company/model/jdbc/TaskToGroupConnector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab2_jaxb_140417.iml" afterPath="$PROJECT_DIR$/Lab2_jaxb_140417.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/journal.xml" afterPath="$PROJECT_DIR$/xml/journal.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java" afterPath="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndDateSQLConverterTest.java" afterPath="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndTimestampSQLConverterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,24 +85,42 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="145">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GregXMLAndDateSQLConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java">
+      <file leaf-file-name="BackUpCheckJournal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="47" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GregXMLAndTimestampSQLConverterTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndTimestampSQLConverterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GregXMLAndTimestampSQLConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,17 +128,26 @@
       <file leaf-file-name="JournalConnector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="88" column="66" lean-forward="false" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
+            <state relative-caret-position="245">
+              <caret line="90" column="47" lean-forward="false" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#631#632#0" expanded="false" />
-                <element signature="e#675#676#0" expanded="false" />
-                <marker date="1492288123110" expanded="true" signature="1017:1038" ph="select * fro... book" />
-                <marker date="1492288123110" expanded="true" signature="1017:1045" ph="select * fro... journal" />
-                <marker date="1492288123110" expanded="true" signature="2128:2198" ph="INSERT INTO journal... " />
-                <marker date="1492288123110" expanded="true" signature="2128:2244" ph="INSERT INTO journal... " />
-                <marker date="1492288123110" expanded="true" signature="3216:3235" ph="DROP TABLE j... " />
+                <marker date="1492326365329" expanded="true" signature="1017:1045" ph="select * fro... journal" />
+                <marker date="1492326365329" expanded="true" signature="2146:2262" ph="INSERT INTO journal... " />
+                <marker date="1492326365329" expanded="true" signature="3249:3268" ph="DROP TABLE j... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskToGroupConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="93" column="30" lean-forward="false" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+              <folding>
+                <marker date="1492326365219" expanded="true" signature="1080:1114" ph="select * fro... task_to_group" />
+                <marker date="1492326365219" expanded="true" signature="2267:2396" ph="INSERT INTO task_to_group... " />
+                <marker date="1492326365219" expanded="true" signature="3437:3462" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -382,16 +412,18 @@
         <option value="$PROJECT_DIR$/src/com/company/model/xjc/TaskToGroup.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpValidation.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/MarkConnector.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpValidationJournal.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/ConnectionDB.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckMark.java" />
         <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckTaskToGroup.java" />
-        <option value="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndDateSQLConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java" />
+        <option value="$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndDateSQLConverterTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndTimestampSQLConverterTest.java" />
       </list>
     </option>
   </component>
@@ -498,6 +530,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="jdbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab2_jaxb_140417" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab2_jaxb_140417" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -572,7 +626,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -590,7 +644,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="GregXMLAndDateSQLConverterTest.convGregXmlToDateSqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="GregXMLAndTimestampSQLConverterTest.convGregXmlToDateSqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.test.model.jdbc.*" />
@@ -601,8 +655,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.test.model.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.company.test.model.jdbc.GregXMLAndDateSQLConverterTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.model.jdbc.GregXMLAndTimestampSQLConverterTest" />
       <option name="METHOD_NAME" value="convGregXmlToDateSqlTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.model.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Lab2_jaxb_140417" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.test.model.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.model.jdbc.GregXMLAndTimestampSQLConverterTest" />
+      <option name="METHOD_NAME" value="convDateSqlToGregXmlTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -980,14 +1060,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GregXMLAndDateSQLConverterTest.convGregXmlToDateSqlTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convGregXmlToDateSqlTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GregXMLAndDateSQLConverterTest.convGregXmlToDateSqlTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GregXMLAndTimestampSQLConverterTest.convGregXmlToDateSqlTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -1027,12 +1109,25 @@
     <history-entry file="GregXMLAndDateSQLConverterTest_convGregXmlToDateSqlTest - 2017.04.15 at 23h 18m 06s.xml">
       <configuration name="GregXMLAndDateSQLConverterTest.convGregXmlToDateSqlTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GregXMLAndDateSQLConverterTest_convGregXmlToDateSqlTest - 2017.04.16 at 09h 56m 13s.xml">
+      <configuration name="GregXMLAndDateSQLConverterTest.convGregXmlToDateSqlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GregXMLAndTimestampSQLConverterTest_convDateSqlToGregXmlTest - 2017.04.16 at 10h 06m 07s.xml">
+      <configuration name="GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GregXMLAndTimestampSQLConverterTest_convDateSqlToGregXmlTest - 2017.04.16 at 10h 06m 36s.xml">
+      <configuration name="GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GregXMLAndTimestampSQLConverterTest_convDateSqlToGregXmlTest - 2017.04.16 at 10h 07m 34s.xml">
+      <configuration name="GregXMLAndTimestampSQLConverterTest.convDateSqlToGregXmlTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58922000" />
+    <option name="totallyTimeSpent" value="62538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1044,9 +1139,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17779204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1058,12 +1153,35 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409396" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17779204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1091,14 +1209,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/journal/xjc/ObjectFactory.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/365256cd-05e7-42b4-bd5b-bcccbeccd172/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1552,28 +1662,6 @@
           <caret line="110" column="11" lean-forward="false" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <marker date="1492282513603" expanded="true" signature="1014:1039" ph="select * fro... mark" />
-            <marker date="1492282513603" expanded="true" signature="2083:2214" ph="INSERT INTO mark... " />
-            <marker date="1492282513603" expanded="true" signature="3158:3174" ph="DELETE FROM " />
-            <marker date="1492282513603" expanded="true" signature="3164:3174" ph="DROP TABLE m... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="110" column="5" lean-forward="false" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#669#670#0" expanded="false" />
-            <element signature="e#713#714#0" expanded="false" />
-            <marker date="1492282513634" expanded="true" signature="1080:1114" ph="select * fro... task_to_group" />
-            <marker date="1492282513634" expanded="true" signature="2252:2381" ph="INSERT INTO task_to_group... " />
-            <marker date="1492282513634" expanded="true" signature="3407:3432" ph="DELETE FROM " />
-            <marker date="1492282513634" expanded="true" signature="3413:3432" ph="DROP TABLE t... " />
           </folding>
         </state>
       </provider>
@@ -1590,10 +1678,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#1254#1255#0" expanded="false" />
-            <element signature="e#1287#1288#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1611,13 +1696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/xjc/Journal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1946">
@@ -1625,75 +1703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndDateSQLConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/journal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="88" column="66" lean-forward="false" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#675#676#0" expanded="false" />
-            <marker date="1492288123110" expanded="true" signature="1017:1038" ph="select * fro... book" />
-            <marker date="1492288123110" expanded="true" signature="1017:1045" ph="select * fro... journal" />
-            <marker date="1492288123110" expanded="true" signature="2128:2198" ph="INSERT INTO journal... " />
-            <marker date="1492288123110" expanded="true" signature="2128:2244" ph="INSERT INTO journal... " />
-            <marker date="1492288123110" expanded="true" signature="3216:3235" ph="DROP TABLE j... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndDateSQLConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.mark">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.journal">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.task_to_group">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1928,10 +1938,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xml/journal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/TaskToGroupConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="93" column="30" lean-forward="false" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding>
+            <marker date="1492326365219" expanded="true" signature="1080:1114" ph="select * fro... task_to_group" />
+            <marker date="1492326365219" expanded="true" signature="2267:2396" ph="INSERT INTO task_to_group... " />
+            <marker date="1492326365219" expanded="true" signature="3437:3462" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/JournalConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="90" column="47" lean-forward="false" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+          <folding>
+            <marker date="1492326365329" expanded="true" signature="1017:1045" ph="select * fro... journal" />
+            <marker date="1492326365329" expanded="true" signature="2146:2262" ph="INSERT INTO journal... " />
+            <marker date="1492326365329" expanded="true" signature="3249:3268" ph="DROP TABLE j... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="145">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/interactor/BackUpCheckJournal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="47" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.journal">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2e13012b/365256cd-05e7-42b4-bd5b-bcccbeccd172/SRMStudyCenter.public.task_to_group">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="109" column="11" lean-forward="false" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/jdbc/GregXMLAndTimestampSQLConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="1955" column="22" lean-forward="false" selection-start-line="1955" selection-start-column="22" selection-end-line="1955" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/model/jdbc/GregXMLAndTimestampSQLConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
           <folding />
         </state>
       </provider>

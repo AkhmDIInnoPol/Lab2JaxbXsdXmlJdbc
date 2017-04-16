@@ -52,8 +52,8 @@ public class TaskToGroupConnector
                 taskToGroup.setTaskId(BigInteger.valueOf(result.getInt("task_id")));
                 taskToGroup.setStudyGroupId(BigInteger.valueOf(result.getInt("study_group_id")));
                 taskToGroup.setIsActive(result.getBoolean("is_active"));
-                taskToGroup.setEndDate(GregXMLAndDateSQLConverter
-                        .convDateSqlToGregXml(result.getDate("end_date")));
+                taskToGroup.setEndDate(GregXMLAndTimestampSQLConverter
+                        .convTimestampSqlToGregXml(result.getTimestamp("end_date")));
 
                 taskToGroups.getTaskToGroups().add(taskToGroup);
             }
@@ -88,8 +88,8 @@ public class TaskToGroupConnector
                 preparedStatement.setInt(2, taskToGroup.getTaskId().intValue());
                 preparedStatement.setInt(3, taskToGroup.getStudyGroupId().intValue());
                 preparedStatement.setBoolean(4, taskToGroup.isIsActive());
-                preparedStatement.setDate(5,
-                        GregXMLAndDateSQLConverter.convGregXmlToDateSql(taskToGroup.getEndDate()));
+                preparedStatement.setTimestamp(5,
+                        GregXMLAndTimestampSQLConverter.convGregXmlToTimestampSql(taskToGroup.getEndDate()));
 
                 preparedStatement.executeUpdate();
             }

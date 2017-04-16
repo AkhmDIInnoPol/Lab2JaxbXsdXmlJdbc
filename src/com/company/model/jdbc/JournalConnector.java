@@ -50,8 +50,10 @@ public class JournalConnector
                 journal.setId(BigInteger.valueOf(result.getInt("id")));
                 journal.setLessonId(BigInteger.valueOf(result.getInt("lesson_id")));
                 journal.setStudentId(BigInteger.valueOf(result.getInt("student_id")));
-                journal.setTimeCheck(GregXMLAndDateSQLConverter
-                        .convDateSqlToGregXml( result.getDate("time_check")));
+
+                journal.setTimeCheck(GregXMLAndTimestampSQLConverter
+                        .convTimestampSqlToGregXml(  result.getTimestamp("time_check")));
+
                 journal.setIsDeleted(result.getBoolean("is_deleted"));
 
                 journals.getJournals().add(journal);
@@ -86,8 +88,8 @@ public class JournalConnector
                 preparedStatement.setInt(1, journal.getId().intValue());
                 preparedStatement.setInt(2, journal.getLessonId().intValue());
                 preparedStatement.setInt(3, journal.getStudentId().intValue());
-                preparedStatement.setDate(4, GregXMLAndDateSQLConverter
-                        .convGregXmlToDateSql(journal.getTimeCheck()));
+                preparedStatement.setTimestamp(4, GregXMLAndTimestampSQLConverter
+                        .convGregXmlToTimestampSql(journal.getTimeCheck()));
                 preparedStatement.setBoolean(5, journal.isIsDeleted());
 
                 preparedStatement.executeUpdate();

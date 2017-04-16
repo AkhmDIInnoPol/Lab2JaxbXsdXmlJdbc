@@ -6,44 +6,45 @@ import org.apache.log4j.PropertyConfigurator;
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
-import java.sql.Date;
+import java.sql.Timestamp;
 import java.util.GregorianCalendar;
 
 /**
  * Created by Di on 15.04.2017.
  */
-public class GregXMLAndDateSQLConverter
+public class GregXMLAndTimestampSQLConverter
 {
 
     static {
         PropertyConfigurator.configure("./src/com/company/logger/log4j.properties");
     }
-    private static final Logger logger = Logger.getLogger(GregXMLAndDateSQLConverter.class);
+    private static final Logger logger = Logger.getLogger(GregXMLAndTimestampSQLConverter.class);
 
 
 
 
 
     /**
-     * Function convert {@link XMLGregorianCalendar} to {@link  java.sql.Date}
-     * @param gregXML - date in {@link XMLGregorianCalendar} format.
-     * @return - date in {@link  java.sql.Date} format.
+     * Function convert {@link XMLGregorianCalendar} to {@link  java.sql.Timestamp}
+     * @param gregXML - date and time in {@link XMLGregorianCalendar} format.
+     * @return - time and date in {@link  java.sql.Timestamp} format.
      */
-    public static Date convGregXmlToDateSql(XMLGregorianCalendar gregXML)
+    public static Timestamp convGregXmlToTimestampSql(XMLGregorianCalendar gregXML)
     {
         long time = gregXML.toGregorianCalendar().getTime().getTime();
-        return new Date(time);
+        return new Timestamp(time);
     }
 
     /**
-     * Function convert {@link  java.sql.Date} to {@link XMLGregorianCalendar}.
-     * @param dateSql - date in {@link  java.sql.Date}.
-     * @return date in {@link XMLGregorianCalendar}.
+     * Function convert {@link  java.sql.Timestamp} to {@link XMLGregorianCalendar}.
+     * @param timestamp - date and time in {@link  java.sql.Timestamp}.
+     * @return time and date in {@link XMLGregorianCalendar}.
      */
-    public static XMLGregorianCalendar convDateSqlToGregXml(Date dateSql)
+    public static XMLGregorianCalendar convTimestampSqlToGregXml(Timestamp timestamp)
     {
+
         GregorianCalendar calendar = new GregorianCalendar();
-        calendar.setTime(dateSql);
+        calendar.setTime(timestamp);
 
         XMLGregorianCalendar gregXml = null;
 

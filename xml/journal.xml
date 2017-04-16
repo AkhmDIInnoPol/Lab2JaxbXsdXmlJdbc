@@ -4,14 +4,14 @@
         <id>6</id>
         <lesson_id>1</lesson_id>
         <student_id>2</student_id>
-        <time_check>2017-04-28T00:00:00.000+03:00</time_check>
+        <time_check>2017-04-28T05:07:05.000+03:00</time_check>
         <is_deleted>false</is_deleted>
     </journals>
     <journals>
         <id>5</id>
         <lesson_id>1</lesson_id>
         <student_id>1</student_id>
-        <time_check>2017-04-28T00:00:00.000+03:00</time_check>
+        <time_check>2017-04-28T04:07:05.000+03:00</time_check>
         <is_deleted>false</is_deleted>
     </journals>
 </Journals>

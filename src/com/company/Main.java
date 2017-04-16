@@ -24,12 +24,12 @@ public class Main {
 
         BackUpCheckJournal backUpCheckJournalThread = new BackUpCheckJournal();
         backUpCheckJournalThread.start();
-
-        BackUpCheckMark backUpCheckMarkThread = new BackUpCheckMark();
-        backUpCheckMarkThread.start();
-
-        BackUpCheckTaskToGroup backUpCheckTaskToGroupThread = new BackUpCheckTaskToGroup();
-        backUpCheckTaskToGroupThread.start();
+//
+//        BackUpCheckMark backUpCheckMarkThread = new BackUpCheckMark();
+//        backUpCheckMarkThread.start();
+//
+//        BackUpCheckTaskToGroup backUpCheckTaskToGroupThread = new BackUpCheckTaskToGroup();
+//        backUpCheckTaskToGroupThread.start();
     }
 
 
