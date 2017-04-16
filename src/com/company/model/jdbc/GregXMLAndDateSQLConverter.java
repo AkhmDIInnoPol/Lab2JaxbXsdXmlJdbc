@@ -35,7 +35,6 @@ public class GregXMLAndDateSQLConverter
         return new Date(time);
     }
 
-
     /**
      * Function convert {@link  java.sql.Date} to {@link XMLGregorianCalendar}.
      * @param dateSql - date in {@link  java.sql.Date}.
@@ -49,7 +48,7 @@ public class GregXMLAndDateSQLConverter
         XMLGregorianCalendar gregXml = null;
 
         try {
-           gregXml = DatatypeFactory.newInstance().newXMLGregorianCalendar(calendar);
+            gregXml = DatatypeFactory.newInstance().newXMLGregorianCalendar(calendar);
         }
         catch (DatatypeConfigurationException ex)
         {
@@ -58,6 +57,9 @@ public class GregXMLAndDateSQLConverter
 
         return gregXml;
     }
+
+
+
 
 
 

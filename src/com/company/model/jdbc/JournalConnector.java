@@ -51,7 +51,7 @@ public class JournalConnector
                 journal.setLessonId(BigInteger.valueOf(result.getInt("lesson_id")));
                 journal.setStudentId(BigInteger.valueOf(result.getInt("student_id")));
                 journal.setTimeCheck(GregXMLAndDateSQLConverter
-                        .convDateSqlToGregXml(result.getDate("time_check")));
+                        .convDateSqlToGregXml( result.getDate("time_check")));
                 journal.setIsDeleted(result.getBoolean("is_deleted"));
 
                 journals.getJournals().add(journal);
