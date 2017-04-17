@@ -24,7 +24,6 @@ public class BackUpCheckJournal extends Thread
 
 
 
-    public static boolean isDone = false;
 
 
     private static final String journalsXmlFileName = "./xml/journal";
@@ -32,10 +31,6 @@ public class BackUpCheckJournal extends Thread
     private JournalConnector journalConnector;
 
     private ConnectionDB connectionDB;
-
-
-    private Object waitOtherThreadObj;
-
 
 
 
